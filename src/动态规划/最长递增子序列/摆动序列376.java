@@ -1,4 +1,4 @@
-package 动态规划;
+package 动态规划.最长递增子序列;
 
 public class 摆动序列376 {
     public int wiggleMaxLength(int[] nums) {

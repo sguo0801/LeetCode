@@ -1,3 +1,5 @@
+package BFS广度优先遍历;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -11,10 +13,10 @@ public class 最短路径长度 {
         Queue<Position> queue = new LinkedList<>();
         int m = grids.length;
         int n = grids[0].length;
-        queue.offer(new Position(0, 0, 0));  //初始值length有待商榷,但是不影响流程,从左上角开始!返回的是6.应该是没有问题
+        queue.offer(new Position(0, 0, 0));  //初始值length有待商榷,但是不影响流程,从左上角开始! 到右下角返回的是6.应该是没有问题###
         while (! queue.isEmpty()){  //只要还有一个位置可以选.
             Position nowPos = queue.poll(); //保存下当前的作为后面的新位置来源
-            for (int i = 0; i < 4; i++){  //四个方向开始挨个试.
+            for (int i = 0; i < 4; i++){  //四个方向开始挨个试.for循环代替while(size>0)把同一层级的位置选出来.因为确定只有四种可能,所以不用while进行试探..
                 Position nextPos = new Position(nowPos.r + next[i][0], nowPos.c + next[i][1], nowPos.length + 1);//这里是四个方向,i0,i1作为行列的增量.
                 if(nextPos.r < 0 || nextPos.r >= m || nextPos.c < 0 || nextPos.c >= n){
                     continue;  //如果撞墙啦,则换方向继续换方位.
@@ -35,7 +37,7 @@ public class 最短路径长度 {
 
 
 }
- class Position{
+ class Position{  //自建类.
     int r;  //修饰符不能用私有.其他类会无法调用,可以全部用默认.
     int c;
     int length;

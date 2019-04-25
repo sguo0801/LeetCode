@@ -1,4 +1,4 @@
-package BFS广度优先遍历.DFS深度优先遍历;
+package DFS深度优先遍历;
 //首先对边界上每一个'O'做深度优先搜索，将与其相连的所有'O'改为'-'。然后遍历矩阵，将矩阵中所有'O'改为'X',将矩阵中所有'-'变为'O'
 public class 被围绕的区域130 {
     class Solution {

@@ -1,4 +1,4 @@
-package BFS广度优先遍历.DFS深度优先遍历;
+package DFS深度优先遍历;
 
 public class 岛屿的最大面积695 {
     class Solution {

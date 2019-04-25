@@ -1,4 +1,4 @@
-package 动态规划;
+package 动态规划.背包;
 //硬币可以重复使用，因此这是一个完全背包问题。完全背包只需要将 0-1 背包中逆序遍历 dp 数组改为正序遍历即可。逆序是源头中代码的.
 //public int coinChange(int[] coins, int amount) {
 //    if (amount == 0 || coins == null || coins.length == 0) {

@@ -1,4 +1,4 @@
-package 动态规划;
+package 动态规划.斐波那契数列;
 
 public class 环形打家劫舍213 {
         public int rob(int[] nums) {  //思路要清晰,是比较pre1  ,pre2跟nums[i]和  的大值作为保留.只不过有环划定了始末重点范围.

@@ -1,4 +1,4 @@
-package 动态规划;
+package 动态规划.斐波那契数列;
 //第i个楼梯可以从第i-1和i-2个楼梯再走一步到达，走到第i个楼梯的方法数为走到第i-1和第i-2个楼梯的方法数之和。
 public class 爬楼梯70 {
         public int climbStairs(int n) {

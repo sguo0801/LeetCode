@@ -1,10 +1,10 @@
-package Twozhizhen;
+package BFS广度优先遍历;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class mian {
+public class 单词接龙127 {
     class Solution {
         public int ladderLength(String beginWord, String endWord, List<String> wordList) {
             Queue<String> queue = new LinkedList<>();
@@ -14,7 +14,7 @@ public class mian {
             while (!queue.isEmpty()) {
                 layyer++;  //说明还没到想要的单词,数目加一
                 int size = queue.size();  //##
-                while (size-- > 0) {  //看size是否为空????
+                while (size-- > 0) {  //看size是否为空,用while把同一层级的都选出来.==0时退出当前层级,queue中都是下一层级的元素.到下一层,先判断>0,再--.
                     String cur = queue.poll();  //把队列头拿出来作为比较对象
                     for (int i = 0; i < wordList.size(); i++) {
                         if (marked[i]) {  //标记则代表用过了

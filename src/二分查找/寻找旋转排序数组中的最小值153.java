@@ -1,6 +1,6 @@
 package 二分查找;
 
-public class 寻找排序数组中的最小值153 {
+public class 寻找旋转排序数组中的最小值153 {
         public int findMin(int[] nums) {
             int n = nums.length;
             int l = 0;

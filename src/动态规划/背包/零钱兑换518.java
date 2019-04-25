@@ -1,4 +1,4 @@
-package 动态规划;
+package 动态规划.背包;
 
 public class 零钱兑换518 {
     public int change(int amount, int[] coins) {

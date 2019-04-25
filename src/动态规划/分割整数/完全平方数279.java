@@ -1,4 +1,4 @@
-package 动态规划;
+package 动态规划.分割整数;
 
 public class 完全平方数279 {
     public int numSquares(int n) {

@@ -1,4 +1,4 @@
-package BFS广度优先遍历.DFS深度优先遍历;
+package DFS深度优先遍历;
 
 public class 朋友圈547 {
     class Solution {

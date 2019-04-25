@@ -1,4 +1,5 @@
-package 动态规划;
+package 动态规划.最长递增子序列;
+//只有一个序列,且dp必须包括最后的字母,需要遍历求max
 //on2的方法,onlogn方法在源头,不是很懂?????
 //O(N^2)的解法容易想到, 分享一个O(NlogN)的解法 here
 //class Solution {

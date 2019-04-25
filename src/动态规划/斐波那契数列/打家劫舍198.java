@@ -1,4 +1,4 @@
-package 动态规划;
+package 动态规划.斐波那契数列;
 
 public class 打家劫舍198 {
         public int rob(int[] nums) {

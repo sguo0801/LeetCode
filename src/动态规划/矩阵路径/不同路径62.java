@@ -1,4 +1,4 @@
-package 动态规划;
+package 动态规划.矩阵路径;
 public class 不同路径62 {
     public int uniquePaths(int m, int n) {
         int[][] dp = new int[m][n];

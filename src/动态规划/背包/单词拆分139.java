@@ -1,4 +1,4 @@
-package 动态规划;
+package 动态规划.背包;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package 动态规划;
+package 动态规划.数组区间;
 
 public class 区域检索303 {
     //问题在哪里???
