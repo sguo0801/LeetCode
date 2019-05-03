@@ -1,4 +1,4 @@
-package 数学.进制转换;
+package 数学.字符串加减;
 
 public class 二进制求和67 {
     class Solution {

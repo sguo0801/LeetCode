@@ -1,4 +1,4 @@
-package 数学;
+package 数学.进制转换;
 
 public class 转换成十六进制405 {
     class Solution {

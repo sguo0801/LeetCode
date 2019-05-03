@@ -1,4 +1,4 @@
-package 数学;
+package 数学.其他;
 //很懵,仿佛是背下来的
 public class 除自身以外数组的乘积238 {
     class Solution {

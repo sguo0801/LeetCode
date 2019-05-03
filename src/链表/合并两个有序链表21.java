@@ -1,6 +1,6 @@
 package 链表;
 
-public class 合并两个有序链表 {
+public class 合并两个有序链表21 {
     /**
      * Definition for singly-linked list.
      * public class ListNode {

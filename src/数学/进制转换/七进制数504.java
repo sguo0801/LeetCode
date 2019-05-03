@@ -1,4 +1,4 @@
-package 数学;
+package 数学.进制转换;
 
 public class 七进制数504 {
 //    class Solution {   //直接使用Integer的toString方法.
