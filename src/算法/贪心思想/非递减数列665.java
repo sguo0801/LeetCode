@@ -1,4 +1,4 @@
-package 贪心思想;
+package 算法.贪心思想;
 
 public class 非递减数列665 {
         public boolean checkPossibility(int[] nums) {  //跟种花一样,遇到了先修改,主要考虑如何修改不影响后面操作.或者把情况分完整.

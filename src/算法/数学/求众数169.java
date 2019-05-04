@@ -1,4 +1,4 @@
-package 数学;
+package 算法.数学;
 
 public class 求众数169 {
     class Solution {

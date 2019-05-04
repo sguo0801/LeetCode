@@ -1,4 +1,4 @@
-package 贪心思想;
+package 算法.贪心思想;
 
 import java.util.ArrayList;
 import java.util.List;

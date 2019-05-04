@@ -1,5 +1,5 @@
-package 贪心思想;
-//注意分解问题,找局部最优,保证遍历之后也是全局最优,贪心思想
+package 算法.贪心思想;
+//注意分解问题,找局部最优,保证遍历之后也是全局最优,算法.贪心思想
 public class 买卖股票的最佳时机122 {
         public int maxProfit(int[] prices) {
             int profit = 0;

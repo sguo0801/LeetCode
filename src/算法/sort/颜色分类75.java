@@ -1,4 +1,4 @@
-package sort;
+package 算法.sort;
 
 public class    颜色分类75 {
     public void sortColors(int[] nums) {

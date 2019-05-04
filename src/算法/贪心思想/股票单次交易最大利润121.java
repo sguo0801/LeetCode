@@ -1,4 +1,4 @@
-package 贪心思想;
+package 算法.贪心思想;
 
 public class 股票单次交易最大利润121 {
         public int maxProfit(int[] prices) {

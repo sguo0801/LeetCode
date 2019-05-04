@@ -2,25 +2,120 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417e06c-493f-4aa9-80ea-127b76b91554" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/链表/两两交换链表中的节点24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/链表/两数相加445.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/链表/分隔链表725.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/链表/回文链表234.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/链表/奇偶链表328.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/数据结构/树/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/数据结构/树/二叉树两点最大距离543.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/数据结构/树/另一个树的子树572.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/数据结构/树/合并二叉树617.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/数据结构/树/对称二叉树101.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/数据结构/树/平衡二叉树110.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/数据结构/树/最大深度104.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/数据结构/树/最小路径111.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/数据结构/树/翻转二叉树226.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/数据结构/树/路径总和112.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/数据结构/树/路径总和可以不从头开始437.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数学/其他/_3的幂326.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数学/其他/_3的幂326.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数学/其他/三个数的最大乘积628.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数学/其他/三个数的最大乘积628.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数学/其他/有效的完全平方数367.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数学/其他/有效的完全平方数367.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数学/其他/除自身以外数组的乘积238.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数学/其他/除自身以外数组的乘积238.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数学/字符串加减/二进制求和67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数学/字符串加减/二进制求和67.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数学/字符串加减/字符串相加415.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数学/字符串加减/字符串相加415.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数学/最少移动次数462.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数学/最少移动次数462.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数学/求众数169.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数学/求众数169.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数学/进制转换/七进制数504.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数学/进制转换/七进制数504.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数学/进制转换/二十六进制转换168.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数学/进制转换/二十六进制转换168.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数学/进制转换/转换成十六进制405.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数学/进制转换/转换成十六进制405.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数学/阶乘尾部有多少零172.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数学/阶乘尾部有多少零172.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/合并两个有序链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/合并两个有序链表21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BFS广度优先遍历/单词接龙127.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/BFS广度优先遍历/单词接龙127.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BFS广度优先遍历/最短路径长度.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/BFS广度优先遍历/最短路径长度.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS深度优先遍历/太平洋大西洋水流问题417.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/DFS深度优先遍历/太平洋大西洋水流问题417.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS深度优先遍历/岛屿的个数200.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/DFS深度优先遍历/岛屿的个数200.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS深度优先遍历/岛屿的最大面积695.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/DFS深度优先遍历/岛屿的最大面积695.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS深度优先遍历/朋友圈547.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/DFS深度优先遍历/朋友圈547.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS深度优先遍历/被围绕的区域130.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/DFS深度优先遍历/被围绕的区域130.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Twozhizhen/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/Twozhizhen/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Twozhizhen/两数之和167.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/Twozhizhen/两数之和167.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Twozhizhen/删除字幕匹配到字典中最长单词.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/Twozhizhen/删除字幕匹配到字典中最长单词.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Twozhizhen/反转字符串元音字符345.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/Twozhizhen/反转字符串元音字符345.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Twozhizhen/合并两个有序数组88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/Twozhizhen/合并两个有序数组88.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Twozhizhen/回文字符串680.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/Twozhizhen/回文字符串680.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Twozhizhen/平方和633.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/Twozhizhen/平方和633.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Twozhizhen/环形链表141.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/Twozhizhen/环形链表141.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/前k个高频元素347.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/sort/前k个高频元素347.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/数组中第k个最大元素215.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/sort/数组中第k个最大元素215.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/根据字符出现频率排序451.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/sort/根据字符出现频率排序451.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/颜色分类75.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/sort/颜色分类75.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/二分查找/x的平方根69.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/二分查找/x的平方根69.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/二分查找/在排序数组中查找元素第一个和最后一个位置34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/二分查找/在排序数组中查找元素第一个和最后一个位置34.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/二分查找/寻找旋转排序数组中的最小值153.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/二分查找/寻找旋转排序数组中的最小值153.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/二分查找/寻找比目标字母大的最小字母744.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/二分查找/寻找比目标字母大的最小字母744.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/二分查找/有序数组的单一元素540.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/二分查找/有序数组的单一元素540.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/二分查找/第一个错误的版本278.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/二分查找/第一个错误的版本278.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/分治/为运算表达式设计优先级241.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/分治/为运算表达式设计优先级241.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/分割整数/完全平方数279.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/分割整数/完全平方数279.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/分割整数/整数拆分343.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/分割整数/整数拆分343.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/分割整数/解码方法91.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/分割整数/解码方法91.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/字符串编辑/复制粘贴字符650.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/字符串编辑/复制粘贴字符650.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/字符串编辑/字符串删除操作583.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/字符串编辑/字符串删除操作583.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/字符串编辑/编辑距离72.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/字符串编辑/编辑距离72.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/数组区间/区域检索303.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/数组区间/区域检索303.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/数组区间/等差数列划分413.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/数组区间/等差数列划分413.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/斐波那契数列/打家劫舍198.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/斐波那契数列/打家劫舍198.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/斐波那契数列/爬楼梯70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/斐波那契数列/爬楼梯70.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/斐波那契数列/环形打家劫舍213.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/斐波那契数列/环形打家劫舍213.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/最长递增子序列/摆动序列376.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/最长递增子序列/摆动序列376.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/最长递增子序列/最长上升子序列300.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/最长递增子序列/最长上升子序列300.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/最长递增子序列/最长公共子序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/最长递增子序列/最长公共子序列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/最长递增子序列/最长数对链646.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/最长递增子序列/最长数对链646.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/矩阵路径/不同路径62.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/矩阵路径/不同路径62.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/矩阵路径/最小路径和64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/矩阵路径/最小路径和64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/背包/一和零474.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/背包/一和零474.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/背包/分割等和子集416.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/背包/分割等和子集416.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/背包/单词拆分139.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/背包/单词拆分139.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/背包/目标和494.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/背包/目标和494.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/背包/组合总和377.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/背包/组合总和377.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/背包/零钱兑换322.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/背包/零钱兑换322.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/背包/零钱兑换518.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/动态规划/背包/零钱兑换518.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/N皇后51.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/N皇后51.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/不允许有重复的组合总和40.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/不允许有重复的组合总和40.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/个位数组合总和216.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/个位数组合总和216.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/二叉树所有路径257.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/二叉树所有路径257.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/全排列46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/全排列46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/分割回文串131.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/分割回文串131.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/单词搜索79.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/单词搜索79.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/复原IP地址93.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/复原IP地址93.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/子集78.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/子集78.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/无重复排列的全排列47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/无重复排列的全排列47.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/求有重复数字集合的子集90.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/求有重复数字集合的子集90.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/电话号码的字母组合17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/电话号码的字母组合17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/组合77.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/组合77.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/组合总和39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/组合总和39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/解数独37.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/解数独37.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数学/其他/_3的幂326.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/数学/其他/_3的幂326.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数学/其他/三个数的最大乘积628.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/数学/其他/三个数的最大乘积628.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数学/其他/有效的完全平方数367.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/数学/其他/有效的完全平方数367.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数学/其他/除自身以外数组的乘积238.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/数学/其他/除自身以外数组的乘积238.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数学/字符串加减/二进制求和67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/数学/字符串加减/二进制求和67.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数学/字符串加减/字符串相加415.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/数学/字符串加减/字符串相加415.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数学/最少移动次数462.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/数学/最少移动次数462.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数学/求众数169.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/数学/求众数169.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数学/计数质数204.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/数学/计数质数204.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数学/进制转换/七进制数504.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/数学/进制转换/七进制数504.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数学/进制转换/二十六进制转换168.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/数学/进制转换/二十六进制转换168.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数学/进制转换/转换成十六进制405.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/数学/进制转换/转换成十六进制405.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数学/阶乘尾部有多少零172.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/数学/阶乘尾部有多少零172.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/贪心思想/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/贪心思想/Interval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/贪心思想/买卖股票的最佳时机122.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/贪心思想/买卖股票的最佳时机122.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/贪心思想/分割字符使同字符在一起763.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/贪心思想/分割字符使同字符在一起763.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/贪心思想/分发饼干455.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/贪心思想/分发饼干455.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/贪心思想/判断子序列392.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/贪心思想/判断子序列392.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/贪心思想/无重叠区间435.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/贪心思想/无重叠区间435.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/贪心思想/最大子序和53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/贪心思想/最大子序和53.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/贪心思想/根据身高重建队列406.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/贪心思想/根据身高重建队列406.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/贪心思想/用最少数量的箭引爆气球452.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/贪心思想/用最少数量的箭引爆气球452.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/贪心思想/种花问题605.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/贪心思想/种花问题605.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/贪心思想/股票单次交易最大利润121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/贪心思想/股票单次交易最大利润121.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/贪心思想/非递减数列665.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/贪心思想/非递减数列665.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数据结构/链表/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/两两交换链表中的节点24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数据结构/链表/两两交换链表中的节点24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/两数相加445.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数据结构/链表/两数相加445.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/分隔链表725.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数据结构/链表/分隔链表725.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/删除链表中倒数第n个节点19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数据结构/链表/删除链表中倒数第n个节点19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/删除链表中重复元素83.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数据结构/链表/删除链表中重复元素83.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/反转链表206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数据结构/链表/反转链表206.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/合并两个有序链表21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数据结构/链表/合并两个有序链表21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/回文链表234.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数据结构/链表/回文链表234.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/奇偶链表328.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/相交链表160.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数据结构/链表/相交链表160.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,91 +127,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/链表/删除链表中倒数第n个节点19.java">
+        <entry file="file://$PROJECT_DIR$/src/数据结构/树/平衡二叉树110.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="684">
+              <caret line="36" column="79" lean-forward="true" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/链表/删除链表中重复元素83.java">
+        <entry file="file://$PROJECT_DIR$/src/数据结构/树/二叉树两点最大距离543.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="61" lean-forward="true" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/数据结构/树/翻转二叉树226.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/数据结构/链表/奇偶链表328.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/数据结构/树/合并二叉树617.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/数据结构/树/路径总和112.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/数据结构/树/路径总和可以不从头开始437.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4">
+              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/数据结构/树/对称二叉树101.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/链表/合并两个有序链表21.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/链表/两两交换链表中的节点24.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/链表/分隔链表725.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="25" column="101" lean-forward="true" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/链表/奇偶链表328.java">
+        <entry file="file://$PROJECT_DIR$/src/数据结构/树/最小路径111.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+            <state relative-caret-position="209">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/链表/两数相加445.java">
+        <entry file="file://$PROJECT_DIR$/src/数据结构/树/另一个树的子树572.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/链表/回文链表234.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/链表/相交链表160.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/解数独37.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="32" selection-start-line="2" selection-start-column="2" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="618">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -141,18 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BFS广度优先遍历/单词接龙127.java" />
-        <option value="$PROJECT_DIR$/src/BFS广度优先遍历/DFS深度优先遍历/岛屿的最大面积695.java" />
-        <option value="$PROJECT_DIR$/src/BFS广度优先遍历/DFS深度优先遍历/岛屿的个数200.java" />
-        <option value="$PROJECT_DIR$/src/BFS广度优先遍历/DFS深度优先遍历/朋友圈547.java" />
-        <option value="$PROJECT_DIR$/src/BFS广度优先遍历/DFS深度优先遍历/被围绕的区域130.java" />
-        <option value="$PROJECT_DIR$/src/DFS深度优先遍历/被围绕的区域130.java" />
-        <option value="$PROJECT_DIR$/src/DFS深度优先遍历/太平洋大西洋水流问题417.java" />
-        <option value="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/电话号码的字母组合17.java" />
-        <option value="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/单词搜索79.java" />
-        <option value="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/二叉树所有路径257.java" />
-        <option value="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/复原IP地址93.java" />
         <option value="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/全排列46.java" />
         <option value="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/无重复排列的全排列47.java" />
         <option value="$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/组合77.java" />
@@ -192,20 +275,33 @@
         <option value="$PROJECT_DIR$/src/链表/两数相加445.java" />
         <option value="$PROJECT_DIR$/src/链表/分隔链表725.java" />
         <option value="$PROJECT_DIR$/src/链表/奇偶链表328.java" />
+        <option value="$PROJECT_DIR$/src/数据结构/链表/奇偶链表328.java" />
+        <option value="$PROJECT_DIR$/src/数据结构/树/最大深度104.java" />
+        <option value="$PROJECT_DIR$/src/数据结构/树/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/数据结构/树/平衡二叉树110.java" />
+        <option value="$PROJECT_DIR$/src/数据结构/树/二叉树两点最大距离543.java" />
+        <option value="$PROJECT_DIR$/src/数据结构/树/翻转二叉树226.java" />
+        <option value="$PROJECT_DIR$/src/数据结构/树/合并二叉树617.java" />
+        <option value="$PROJECT_DIR$/src/数据结构/树/路径总和112.java" />
+        <option value="$PROJECT_DIR$/src/数据结构/树/路径总和437.java" />
+        <option value="$PROJECT_DIR$/src/数据结构/树/另一个树的子树572.java" />
+        <option value="$PROJECT_DIR$/src/数据结构/树/对称二叉树101.java" />
+        <option value="$PROJECT_DIR$/src/数据结构/树/最小路径111.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1060" />
+    <option name="width" value="1750" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,7 +318,14 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+              <item name="树" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -236,15 +339,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556881352982" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556969474012" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BAT" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -268,18 +370,18 @@
   </component>
   <component name="RunManager" selected="Application.组合77">
     <configuration name="最短路径长度" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BFS广度优先遍历.最短路径长度" />
+      <option name="MAIN_CLASS_NAME" value="算法.BFS广度优先遍历.最短路径长度" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="全排列46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="回溯_求解排列组合问题的DFS.全排列46" />
+      <option name="MAIN_CLASS_NAME" value="算法.回溯_求解排列组合问题的DFS.全排列46" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="回溯_求解排列组合问题的DFS.*" />
+          <option name="PATTERN" value="算法.回溯_求解排列组合问题的DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,11 +390,11 @@
       </method>
     </configuration>
     <configuration name="组合77" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="回溯_求解排列组合问题的DFS.组合77" />
+      <option name="MAIN_CLASS_NAME" value="算法.回溯_求解排列组合问题的DFS.组合77" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="回溯_求解排列组合问题的DFS.*" />
+          <option name="PATTERN" value="算法.回溯_求解排列组合问题的DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,6 +467,9 @@
       <workItem from="1556794781705" duration="1210000" />
       <workItem from="1556844888202" duration="86000" />
       <workItem from="1556865200663" duration="4871000" />
+      <workItem from="1556881553819" duration="290000" />
+      <workItem from="1556883389830" duration="22000" />
+      <workItem from="1556944063038" duration="10854000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1556195714201</created>
@@ -380,16 +485,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556607144563</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="测试">
+      <created>1556881604662</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556881604662</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183763000" />
+    <option name="totallyTimeSpent" value="194929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22319035" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23190348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,14 +510,14 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499501" weight="0.32997987" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.194051" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.194051" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.500499" side_tool="true" weight="0.32997987" />
@@ -448,108 +561,27 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试" />
     <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BFS广度优先遍历/单词接龙127.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BFS广度优先遍历/最短路径长度.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFS深度优先遍历/岛屿的个数200.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFS深度优先遍历/太平洋大西洋水流问题417.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFS深度优先遍历/岛屿的最大面积695.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFS深度优先遍历/朋友圈547.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFS深度优先遍历/被围绕的区域130.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/电话号码的字母组合17.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/子集78.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/组合总和39.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/全排列46.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/全排列46.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
@@ -559,7 +591,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/复原IP地址93.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/复原IP地址93.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
@@ -569,7 +601,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/求有重复数字集合的子集90.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/求有重复数字集合的子集90.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
@@ -579,7 +611,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/无重复排列的全排列47.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/无重复排列的全排列47.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
@@ -612,14 +644,14 @@
     <entry file="file://$PROJECT_DIR$/../j2se/src/com/horstmann/corejava/Employee.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/数学/计数质数204.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/数学/计数质数204.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/组合77.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/组合77.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
@@ -629,63 +661,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/数学/进制转换/七进制数504.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/数学/进制转换/七进制数504.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/数学/进制转换/转换成十六进制405.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/数学/进制转换/转换成十六进制405.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/数学/最少移动次数462.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/数学/最少移动次数462.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/数学/求众数169.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/数学/求众数169.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/数学/进制转换/二十六进制转换168.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/数学/进制转换/二十六进制转换168.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/数学/其他/有效的完全平方数367.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/数学/其他/有效的完全平方数367.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/数学/其他/三个数的最大乘积628.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/数学/其他/三个数的最大乘积628.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/数学/其他/除自身以外数组的乘积238.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/数学/其他/除自身以外数组的乘积238.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Twozhizhen/ListNode.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/Twozhizhen/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
@@ -699,14 +731,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/ListNode.java">
+    <entry file="file://$PROJECT_DIR$/src/数据结构/链表/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/N皇后51.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/N皇后51.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="7" column="48" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="7" selection-end-column="48" />
@@ -716,7 +748,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/不允许有重复的组合总和40.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/不允许有重复的组合总和40.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="737">
           <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
@@ -726,7 +758,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/个位数组合总和216.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/个位数组合总和216.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
@@ -736,7 +768,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/二叉树所有路径257.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/二叉树所有路径257.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
@@ -746,7 +778,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/分割回文串131.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/分割回文串131.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
@@ -756,115 +788,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/单词搜索79.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/单词搜索79.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/数学/字符串加减/字符串相加415.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/数学/字符串加减/字符串相加415.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/数学/阶乘尾部有多少零172.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/数学/阶乘尾部有多少零172.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="83" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/反转链表206.java">
+    <entry file="file://$PROJECT_DIR$/src/数据结构/链表/反转链表206.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/数学/其他/_3的幂326.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/数学/其他/_3的幂326.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/数学/字符串加减/二进制求和67.java">
+    <entry file="file://$PROJECT_DIR$/src/算法/数学/字符串加减/二进制求和67.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/回溯_求解排列组合问题的DFS/解数独37.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="32" selection-start-line="2" selection-start-column="2" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/相交链表160.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/删除链表中重复元素83.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/合并两个有序链表21.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/两两交换链表中的节点24.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/两数相加445.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/删除链表中倒数第n个节点19.java">
+    <entry file="file://$PROJECT_DIR$/src/数据结构/链表/删除链表中倒数第n个节点19.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/分隔链表725.java">
+    <entry file="file://$PROJECT_DIR$/src/数据结构/链表/删除链表中重复元素83.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="101" lean-forward="true" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
+        <state relative-caret-position="323">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/回文链表234.java">
+    <entry file="file://$PROJECT_DIR$/src/数据结构/链表/合并两个有序链表21.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/奇偶链表328.java">
+    <entry file="file://$PROJECT_DIR$/src/数据结构/链表/分隔链表725.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="101" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数据结构/链表/两数相加445.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数据结构/链表/回文链表234.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数据结构/链表/相交链表160.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/算法/回溯_求解排列组合问题的DFS/解数独37.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="32" selection-start-line="2" selection-start-column="2" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数据结构/链表/两两交换链表中的节点24.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数据结构/树/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数据结构/树/最大深度104.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数据结构/树/平衡二叉树110.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="79" lean-forward="true" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数据结构/树/二叉树两点最大距离543.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="61" lean-forward="true" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数据结构/树/翻转二叉树226.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数据结构/链表/奇偶链表328.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数据结构/树/合并二叉树617.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数据结构/树/路径总和112.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数据结构/树/另一个树的子树572.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数据结构/树/路径总和可以不从头开始437.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数据结构/树/对称二叉树101.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数据结构/树/最小路径111.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>

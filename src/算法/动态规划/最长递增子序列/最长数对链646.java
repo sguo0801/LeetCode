@@ -1,4 +1,4 @@
-package 动态规划.最长递增子序列;
+package 算法.动态规划.最长递增子序列;
 
 import java.util.Arrays;
 //lambda排序不是很懂?????

@@ -1,4 +1,4 @@
-package 分治;
+package 算法.分治;
 
 import java.util.ArrayList;
 import java.util.List;

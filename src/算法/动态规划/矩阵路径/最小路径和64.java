@@ -1,4 +1,4 @@
-package 动态规划.矩阵路径;
+package 算法.动态规划.矩阵路径;
 
 public class 最小路径和64 {
     public int minPathSum(int[][] grid) {

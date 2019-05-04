@@ -1,4 +1,4 @@
-package 二分查找;
+package 算法.二分查找;
 //不是+-1变化的,就循环条件为l<r.大多数情况下都是这样,最后返回l与r都可以,因为相同
 public class 第一个错误的版本278 {
 //    /* The isBadVersion API is defined in the parent class VersionControl.

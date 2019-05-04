@@ -1,4 +1,4 @@
-package 二分查找;
+package 算法.二分查找;
 
 public class x的平方根69 {
         public int mySqrt(int x) {

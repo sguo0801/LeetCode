@@ -1,4 +1,4 @@
-package Twozhizhen;
+package 算法.Twozhizhen;
 
 import java.util.Arrays;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package 贪心思想;
+package 算法.贪心思想;
 
 public class 最大子序和53 {
         public int maxSubArray(int[] nums) {

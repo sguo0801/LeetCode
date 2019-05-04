@@ -1,4 +1,4 @@
-package 贪心思想;
+package 算法.贪心思想;
 
 public class Interval {
     int start;

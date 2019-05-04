@@ -1,4 +1,4 @@
-package 回溯_求解排列组合问题的DFS;
+package 算法.回溯_求解排列组合问题的DFS;
 
 public class TreeNode {
     int val;

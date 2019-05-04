@@ -1,4 +1,4 @@
-package 链表;
+package 数据结构.链表;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package 动态规划.分割整数;
+package 算法.动态规划.分割整数;
 //此方法可以避免考虑初始字符为0的情况.简单好理解,本体其实是f(n)=f(n-1)+f(n-2)的变形,只不过要判断,是否进行相加,一位数排除0的情况,两位数就在10~26之间.
 public class 解码方法91 {
     public int numDecodings(String s) {

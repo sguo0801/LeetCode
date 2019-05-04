@@ -1,4 +1,4 @@
-package BFS广度优先遍历;
+package 算法.BFS广度优先遍历;
 
 import java.util.LinkedList;
 import java.util.Queue;

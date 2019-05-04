@@ -1,4 +1,4 @@
-package 二分查找;
+package 算法.二分查找;
 
 public class 寻找旋转排序数组中的最小值153 {
         public int findMin(int[] nums) {

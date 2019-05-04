@@ -1,4 +1,4 @@
-package 贪心思想;
+package 算法.贪心思想;
 
 import java.util.Arrays;
 //i就是满足的饼干数量

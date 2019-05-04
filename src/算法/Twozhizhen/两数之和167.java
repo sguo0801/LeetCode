@@ -1,4 +1,4 @@
-package Twozhizhen;
+package 算法.Twozhizhen;
 
 public class 两数之和167 {
     public int[] twoSum(int[] numbers, int target) {

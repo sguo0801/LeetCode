@@ -1,4 +1,4 @@
-package 数学.字符串加减;
+package 算法.数学.字符串加减;
 
 public class 字符串相加415 {
     class Solution {

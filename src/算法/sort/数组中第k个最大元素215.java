@@ -1,7 +1,7 @@
-package sort;
+package 算法.sort;
 
 import java.util.PriorityQueue;
-//Arrays.sort()是nlogn时间,1空间.源码中用的是双轴快排的方法
+//Arrays.算法.sort()是nlogn时间,1空间.源码中用的是双轴快排的方法
 //双轴快排:
 //1.对于很小的数组（长度小于27），会使用插入排序。
 //2.选择两个点P1,P2作为轴心，比如我们可以使用第一个元素和最后一个元素。

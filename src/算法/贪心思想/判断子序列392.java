@@ -1,4 +1,4 @@
-package 贪心思想;
+package 算法.贪心思想;
 
 public class 判断子序列392 {
     //为什么不通过??

@@ -1,4 +1,4 @@
-package sort;
+package 算法.sort;
 
 import java.util.ArrayList;
 import java.util.HashMap;

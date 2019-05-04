@@ -1,4 +1,4 @@
-package 回溯_求解排列组合问题的DFS;
+package 算法.回溯_求解排列组合问题的DFS;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,7 +10,7 @@ public class 不允许有重复的组合总和40 {
     class Solution {
         //        public List<List<Integer>> combinationSum2(int[] candidates, int target) {
 //            List<List<Integer>> res = new ArrayList<>();
-//            Arrays.sort(candidates);  //必不可少的排序
+//            Arrays.算法.sort(candidates);  //必不可少的排序
 //            boolean[] arr = new boolean[candidates.length];
 //            dps(res, new ArrayList<>(), 0, arr, candidates, target);
 //            return res;

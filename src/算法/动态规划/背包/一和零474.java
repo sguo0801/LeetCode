@@ -1,4 +1,4 @@
-package 动态规划.背包;
+package 算法.动态规划.背包;
 //不会!!!!!
 public class 一和零474 {
     class Solution {

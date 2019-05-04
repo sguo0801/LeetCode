@@ -1,4 +1,4 @@
-package 贪心思想;
+package 算法.贪心思想;
 
 public class 种花问题605 {
         public boolean canPlaceFlowers(int[] flowerbed, int n) { //抠掉最初和末端,在中间的时候,只有前后均为0才可以种花

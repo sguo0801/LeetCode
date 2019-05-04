@@ -1,4 +1,4 @@
-package DFS深度优先遍历;
+package 算法.DFS深度优先遍历;
 //就是DFS进行标记.注意岛屿的类型char和int区分.
 public class 岛屿的个数200 {
     class Solution {

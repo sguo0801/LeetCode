@@ -1,4 +1,4 @@
-package 动态规划.最长递增子序列;
+package 算法.动态规划.最长递增子序列;
 //是两个序列,dp可以不包括最后的元素,不需要遍历求max
 public class 最长公共子序列 {
     public int lengthOfLCS(int[] nums1, int[] nums2) {

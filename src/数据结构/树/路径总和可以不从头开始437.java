@@ -1,6 +1,6 @@
 package 数据结构.树;
 
-public class 路径总和437 {
+public class 路径总和可以不从头开始437 {
     /**
      * Definition for a binary tree node.
      * public class TreeNode {

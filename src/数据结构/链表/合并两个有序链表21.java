@@ -1,4 +1,4 @@
-package 链表;
+package 数据结构.链表;
 
 public class 合并两个有序链表21 {
     /**

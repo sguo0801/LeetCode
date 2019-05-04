@@ -1,4 +1,4 @@
-package Twozhizhen;
+package 算法.Twozhizhen;
 //j从根号c开始往回,i从0向后
 public class 平方和633 {
     public boolean judgeSquareSum(int c) {

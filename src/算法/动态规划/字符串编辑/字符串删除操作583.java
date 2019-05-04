@@ -1,4 +1,4 @@
-package 动态规划.字符串编辑;
+package 算法.动态规划.字符串编辑;
 //就是求两个字符串的最长公共子序列长度,
 public class 字符串删除操作583 {
     public int minDistance(String word1, String word2) {

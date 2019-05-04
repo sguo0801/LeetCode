@@ -1,4 +1,4 @@
-package 数学;
+package 算法.数学;
 //求最大公约数,先判断a,b大小,都是大的在左边,小的放右边,右边为0,则返回a即为所求
 //int gcd(int a, int b) {
 //    return b == 0 ? a : gcd(b, a % b);原理：x=ky+b,则f(x,y)=f(y,b)。

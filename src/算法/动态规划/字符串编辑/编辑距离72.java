@@ -1,4 +1,4 @@
-package 动态规划.字符串编辑;
+package 算法.动态规划.字符串编辑;
 //这就是动态规划的魅力吧,不需要知道怎么转的,删还是换还是增,从头开始盘!!
 public class 编辑距离72 {
     public int minDistance(String word1, String word2) {

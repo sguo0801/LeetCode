@@ -1,4 +1,4 @@
-package 链表;
+package 数据结构.链表;
 
 public class 两两交换链表中的节点24 {
     /**

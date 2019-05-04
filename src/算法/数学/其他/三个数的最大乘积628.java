@@ -1,4 +1,4 @@
-package 数学.其他;
+package 算法.数学.其他;
 
 import java.util.Arrays;
 

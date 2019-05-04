@@ -1,4 +1,4 @@
-package Twozhizhen;
+package 算法.Twozhizhen;
 
 public class ListNode {
     int val;

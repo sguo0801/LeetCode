@@ -1,4 +1,4 @@
-package Twozhizhen;
+package 算法.Twozhizhen;
 
 import java.util.List;
 //关于compareTo ,和通过遍历后指针==长度 判断包含关系.很棒!

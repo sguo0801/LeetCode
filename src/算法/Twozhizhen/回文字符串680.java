@@ -1,4 +1,4 @@
-package Twozhizhen;
+package 算法.Twozhizhen;
 
 public class 回文字符串680 {
     public boolean validPalindrome(String s) {

@@ -1,4 +1,4 @@
-package DFS深度优先遍历;
+package 算法.DFS深度优先遍历;
 
 import java.util.ArrayList;
 import java.util.List;
