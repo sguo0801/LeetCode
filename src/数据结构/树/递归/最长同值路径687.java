@@ -1,5 +1,5 @@
-package 数据结构.树;
-//????res=Math.max不是很懂,默认当前节点值与两边路径相同吗?
+package 数据结构.树.递归;
+
 public class 最长同值路径687 {
     /**
      * Definition for a binary tree node.
@@ -33,6 +33,7 @@ public class 最长同值路径687 {
             int left = dps(node.left, node.val);//以左儿子作为起始的左边路径长度,注意这里是儿子节点自己的val.
             int right = dps(node.right, node.val);  //指的是下面两儿子边的路径长度
             res = Math.max(res, left + right); //这里是left与right初始默认为从下到上的两边长度.,相加是表示左右长度,因为长度是节点数-1,所以这里不加1.
+            //上面是left与right都是跟node.val相同的所以可以直接加左加右.
             if(node.val == val){  //与父节点相同,则深度+1;
                 return Math.max(left, right) + 1;
             }

@@ -1,4 +1,4 @@
-package 数据结构.树.BFS层次遍历;
+package 数据结构.树.二叉查找树BST;
 
 public class TreeNode {
     int val;

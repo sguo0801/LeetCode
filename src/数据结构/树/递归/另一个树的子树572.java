@@ -1,4 +1,4 @@
-package 数据结构.树;
+package 数据结构.树.递归;
 
 public class 另一个树的子树572 {
     /**

@@ -1,4 +1,4 @@
-package 数据结构.树;
+package 数据结构.树.递归;
 //单纯左右相加val就好,新建node结点递归出一个新树.
 public class 合并二叉树617 {
     /**

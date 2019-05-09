@@ -1,4 +1,4 @@
-package 数据结构.树;
+package 数据结构.树.递归;
 
 public class 路径总和可以不从头开始437 {
     /**
