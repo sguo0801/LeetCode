@@ -1,4 +1,4 @@
-package 算法.Twozhizhen;
+package 算法.Double_Pointer;
 
 public class ListNode {
     int val;
