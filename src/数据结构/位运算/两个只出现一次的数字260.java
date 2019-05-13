@@ -8,7 +8,7 @@ public class 两个只出现一次的数字260 {
                 res ^= i;
             }
             res &= -res;  //n&(-n)求得最低位的1,也就是两个数最低的不同位,比如000000100;
-            int[] diff = new int[2];
+            int[] diff = new int[2];  //初始默认为0;
             for(int i : nums){
                 if((i & res) == 0){
                     diff[0] ^= i;
