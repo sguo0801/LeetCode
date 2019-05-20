@@ -1,11 +1,14 @@
 package 算法.动态规划.数组区间;
 
 public class 区域检索303 {
-    //问题在哪里???
+    //问题在哪里???解决
 //    class NumArray {
 //        private int[] sums;
 //
 //        public NumArray(int[] nums) {
+//            if (nums.length == 0){  //这里要加条件
+//                return;
+//            }
 //            sums = new int[nums.length];
 //            sums[0] = nums[0]; //sums也是从0~n-1的.只不过代表之前到现在的所有和.#########问题在这里!??????
 //            for(int i = 1; i < nums.length; i++){  //sums是前面的和加上现在的值.所以,只能从1开始
@@ -25,6 +28,9 @@ public class 区域检索303 {
         private int[] sums;
 
         public NumArray(int[] nums) {
+            if (nums.length == 0){
+                return;
+            }
             sums = new int[nums.length];
             //sums也是从0~n-1的.只不过代表之前到现在值的所有和.
             for(int i = 0; i < nums.length; i++){  //sums是前面的和加上现在的值.所以,只能从1开始,从0开始,0有不同就用条件运算符!!!!!!!!!

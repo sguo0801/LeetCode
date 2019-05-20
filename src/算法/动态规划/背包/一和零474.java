@@ -20,7 +20,7 @@ public class 一和零474 {
 
                 for (int i = m; i >= zero; i--) {
                     for (int j = n; j >= one; j--) {
-                        dp[i][j] = Math.max(dp[i][j], dp[i - zero][j - one] + 1);
+                        dp[i][j] = Math.max(dp[i][j], dp[i - zero][j - one] + 1);//i-zero,j-one,指的是到当前字符串的前,所能消耗的0.1个数.
                     }
                 }
             }
