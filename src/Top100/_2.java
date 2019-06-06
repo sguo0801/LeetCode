@@ -1,4 +1,4 @@
-package Sequence;
+package Top100;
 
 public class _2 {
     /**

@@ -1,4 +1,4 @@
-package Sequence;
+package Top100;
 
 import java.util.HashMap;
 
