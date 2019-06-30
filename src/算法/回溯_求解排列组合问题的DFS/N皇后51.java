@@ -20,7 +20,7 @@ public class N皇后51 {
         }
 
         private void dps(int r, boolean[] col, boolean[] a135, boolean[] a45, List<List<String>> res, ArrayList<String> list){
-            if(r == n){  //此时r为上一层的8,现在是r+1=9.所以=n
+            if(r == n){  //此时的r为上层行+1,如果=8,说明已经填好了0~7行,则满足整张棋盘.
                 res.add(new ArrayList<>(list));  //说明满足则添加
                 return;
             }

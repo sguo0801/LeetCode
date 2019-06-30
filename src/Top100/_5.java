@@ -5,7 +5,7 @@ public class _5 {
         String max = "";
         for (int i = 0; i < s.length(); i++) {  //可以到最后一个字母,
             String s1 = extend(s, i, i), s2 = extend(s, i, i + 1);   //s1为奇数(每次开始都是字母本身,肯定说是回文),s2为偶数时的回文字符串
-            if (s1.length() > max.length()) max = s1;
+            if (s1.length() > max.length()) max = s1;  //比较的是上次更新后的子字符串长度
             if (s2.length() > max.length()) max = s2;
         }
         return max;

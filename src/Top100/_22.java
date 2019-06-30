@@ -22,7 +22,7 @@ public class _22 {
             helper(res, sb, open + 1, close, n);
             sb.setLength(sb.length() - 1);
         }
-        if (close < open) {
+        if (close < open) {   //###注意这边是右括号的数量小于左括号
             sb.append(")");
             helper(res, sb, open, close + 1, n);
             sb.setLength(sb.length() - 1);

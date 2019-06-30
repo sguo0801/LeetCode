@@ -1,5 +1,5 @@
 package Top100;
-
+//链表是个,十,百的次序
 public class _2 {
     /**
      * Definition for singly-linked list.

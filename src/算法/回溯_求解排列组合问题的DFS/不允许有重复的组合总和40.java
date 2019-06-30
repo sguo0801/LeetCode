@@ -54,7 +54,7 @@ public class 不允许有重复的组合总和40 {
             }
 
             for (int i = start; i < candidates.length; i++) {
-                if (i > start && candidates[i] == candidates[i - 1]) {  //不回头根本不需要标记.
+                if (i > start && candidates[i] == candidates[i - 1]) {  //不回头根本不需要标记.记得排序,找相同排除
                     continue;
                 }
                 if (candidates[i] <= target) {

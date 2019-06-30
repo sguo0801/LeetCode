@@ -12,14 +12,14 @@ public class _15 {
         Arrays.sort(num);
         List<List<Integer>> res = new LinkedList<>();
         for (int i = 0; i < num.length-2; i++) {
-            if (i == 0 || (i > 0 && num[i] != num[i-1])) {
-                int lo = i+1, hi = num.length-1, sum = 0 - num[i];
+            if (i == 0 ||  num[i] != num[i-1]) {  //##注意放到一个大括号里面,如果不满足,返回for循环i++;
+                int lo = i+1, hi = num.length-1, sum = 0 - num[i];   //先确定i,再确定sum
                 while (lo < hi) {
                     if (num[lo] + num[hi] == sum) {
                         res.add(Arrays.asList(num[i], num[lo], num[hi]));
-                        while (lo < hi && num[lo] == num[lo+1]) lo++;
+                        while (lo < hi && num[lo] == num[lo+1]) lo++;  //去掉重复
                         while (lo < hi && num[hi] == num[hi-1]) hi--;
-                        lo++; hi--;
+                        lo++; hi--;  //正常换到下一对数
                     } else if (num[lo] + num[hi] < sum) lo++;
                     else hi--;
                 }

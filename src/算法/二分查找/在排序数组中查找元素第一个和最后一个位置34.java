@@ -16,7 +16,7 @@ public class 在排序数组中查找元素第一个和最后一个位置34 {
             int r = nums.length - 1;
             while(l <= r){
                 int mid = l + (r - l) / 2;
-                if(nums[mid] < t){
+                if(nums[mid] < t){  //如果恰好t在mid和mid+1,之间也没事,最后r还是会定在mid的位置.也就是前一个数的最后一个位置
                     l = mid + 1;
                 }else if(nums[mid] > t){
                     r = mid - 1;

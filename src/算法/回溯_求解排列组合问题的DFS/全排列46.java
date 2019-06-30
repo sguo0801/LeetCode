@@ -21,7 +21,7 @@ public class 全排列46 {
                 res.add(new ArrayList<>(list));  //###因为直接加入list的话加入的是引用，后序对list的操作会影响到res里面的list的内容，所以是要对list进行深拷贝，然后再加入res,所以要重新new一个ArrayList,把list此时的值复制进去.
                 return;
             }
-            for (int i = 0; i < nums.length; i++) {
+            for (int i = 0; i < nums.length; i++) {  //要回头,所以要标记.
                 if (arr[i]) {
                     continue;
                 }

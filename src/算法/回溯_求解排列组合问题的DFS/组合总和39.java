@@ -18,7 +18,7 @@ public class 组合总和39 {
             }
 
             for(int i = start; i < candidates.length; i++){  //i可以以最后一个元素为起点
-                if(candidates[i] <= target){
+                if(candidates[i] <= target){   //注意可以=,也必须有=.下一轮后面target才可以为0.
                     list.add(candidates[i]);
                     dps(res, list, i, candidates, target-candidates[i]); //因为可以重复所以从当前i开始遍历,否则就得从i+1找后面的组合元素,而且target要进行更新.
                     list.remove(list.size()-1);

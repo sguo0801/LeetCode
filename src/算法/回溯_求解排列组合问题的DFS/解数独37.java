@@ -14,7 +14,7 @@ public class 解数独37 {
             for (int i = 0; i < 9; i++) {
                 for (int j = 0; j < 9; j++) {
                     if (board[i][j] != '.') {
-                        num = board[i][j] - '0';
+                        num = board[i][j] - '0';  //##
                         row[i][num] = true;  //代表这个数存在于这个一行中
                         col[j][num] = true;
                         block[i / 3 * 3 + j / 3][num] = true;
@@ -25,7 +25,7 @@ public class 解数独37 {
         }
 
         private boolean dps(char[][] board, boolean[][] row, boolean[][] col, boolean[][] block, int i, int j) {
-            while (board[i][j] != '.') {//跳过非'.'的格子,如果是当行最后一个数,则下移动一行,如果是最后一行最后的一个数,则返回true.
+            while (board[i][j] != '.') {//这里也是截止条件.跳过非'.'的格子,如果是当行最后一个数,则下移动一行,如果是最后一行最后的一个数,则返回true.
                 if (++j >= 9) {  //这里++j,是因为当前为数字,自动向右移动一位,如果不是此行最后一个数,跳过,如果是最后一个数则到下一行第一个数
                     i++;
                     j = 0;  //到下一行第一个数.
@@ -36,8 +36,8 @@ public class 解数独37 {
             }
             //这里是发现是空的'.',开始进行填数,但是必须保证当前行列方框都没有此数才能进行填充.
             for (int num = 1; num <= 9; num++) {
-                if (!row[i][num] && !col[j][num] && !block[i / 3 * 3 + j / 3][num]) {  //此处为'.',但是要注意行,列,框都不能有这个数进行遍历num
-                    board[i][j] = (char) ('0' + num);  //从1开始赋值,注意进行强转从int变char,而且是以'0'为基准!!!!
+                if (!row[i][num] && !col[j][num] && !block[i / 3 * 3 + j / 3][num]) {  //此处为'.',但是要注意行,列,框都不能有这个数进行遍历num,注意是&&!!
+                    board[i][j] = (char) ('0' + num);  //##从1开始赋值,注意进行强转从int变char,而且是以'0'为基准!!!!
                     row[i][num] = true;
                     col[j][num] = true;
                     block[i / 3 * 3 + j / 3][num] = true;  //这三行是标记.说明填好了
