@@ -1,5 +1,5 @@
 package 算法.二分查找;
-
+//二分法,以1和x为两侧,求得sqrt为x/mid,如果s小则调整right,s大则调整left,循环带上=,返回right.
 public class x的平方根69 {
         public int mySqrt(int x) {
             if(x <= 1){

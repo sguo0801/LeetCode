@@ -1,5 +1,5 @@
 package 算法.数学.字符串加减;
-
+//思路都是二进制,找到溢出位开始添加并更新carry,如果对于a,b的字符==1,则carry+1;最后反转输出
 public class 二进制求和67 {
     class Solution {
         public String addBinary(String a, String b) {

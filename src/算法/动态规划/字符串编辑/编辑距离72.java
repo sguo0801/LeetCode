@@ -1,5 +1,5 @@
 package 算法.动态规划.字符串编辑;
-//这就是动态规划的魅力吧,不需要知道怎么转的,删还是换还是增,从头开始盘!!
+//这就是动态规划的魅力吧.
 public class 编辑距离72 {
     public int minDistance(String word1, String word2) {
         if (word1 == null && word2 == null) {
@@ -22,6 +22,7 @@ public class 编辑距离72 {
                 if (word1.charAt(i - 1) == word2.charAt(j - 1)) {
                     dp[i][j] = dp[i - 1][j - 1];  //相当于不需要增加操作,即相同
                 } else {
+                    //##dp[i-1][j-1] 表示替换操作，dp[i-1][j] 表示删除操作，dp[i][j-1] 表示插入操作。(原来的少i-1则删除,新的少j-1则插入,都少则替换).
                     dp[i][j] = Math.min(dp[i - 1][j - 1], Math.min(dp[i][j - 1], dp[i - 1][j])) + 1;//不需要管怎么转换的,记得操作数即可.都是从最开始就转啦.
                 }
             }

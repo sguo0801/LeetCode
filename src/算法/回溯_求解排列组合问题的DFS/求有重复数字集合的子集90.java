@@ -20,7 +20,7 @@ public class 求有重复数字集合的子集90 {
                 if(i > start && nums[i] == nums[i-1]){  //因为不回头,然后去重就用i>start
                     continue;
                 }
-                list.add(nums[i]);
+                list.add(nums[i]);  //注意看添加的是值还是索引.
                 dps(res, list, i+1, nums);
                 list.remove(list.size()-1);
             }

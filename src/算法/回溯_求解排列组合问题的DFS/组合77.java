@@ -11,7 +11,7 @@ public class 组合77 {
 
     public static List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> res = new ArrayList<>();
-        dps(res, new ArrayList<>(), 1, n, k);  //这里不需要标记,都是从头往后面遍历,所以不存在回头,也没有重复
+        dps(res, new ArrayList<>(), 1, n, k);  //k是还需要添加多少数.这里不需要标记,都是从头往后面遍历,所以不存在回头,也没有重复
         return res;
     }
 
