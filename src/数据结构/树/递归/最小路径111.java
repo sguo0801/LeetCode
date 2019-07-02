@@ -10,6 +10,8 @@ public class 最小路径111 {
      *     TreeNode(int x) { val = x; }
      * }
      */
+    //思路还是求深度递归函数,只不过要求最小.后面的是Math.min + 1;唯一要注意的是,一个树节点有一端为空,则这个树节点的深度不考虑空的一层,因为该树节点不是叶子节点,要从另一侧算,
+        //而空的这一层深度为0;最后表示为left+right+1,因为一端为空的情况,必有left或right 为0;当然如果都为null,也不冲突,则为1(当前一个树节点的深度).
     class Solution {
         public int minDepth(TreeNode root) {
             if(root == null){

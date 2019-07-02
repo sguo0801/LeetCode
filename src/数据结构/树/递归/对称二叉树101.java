@@ -1,5 +1,5 @@
 package 数据结构.树.递归;
-
+//思路就是进行递归比较左左,右右;或者左右,右左
 public class 对称二叉树101 {
     /**
      * Definition for a binary tree node.

@@ -23,9 +23,9 @@ public class 非递归中序遍历94 {
             while(root != null || ! stack.isEmpty()){
                 while(root != null){  //开始把左都放栈中,直到尽头.
                     stack.push(root);
-                    root = root.left;
+                    root = root.left;  //先开始往左找(root为左子)
                 }
-                root = stack.pop();//是最左下角的节点,这里作为根添加到res中,因为它的左节点为null
+                root = stack.pop();//是最左下角的节点,这里作为根添加到res中,因为它的左节点为null(此时就是root为根)
                 res.add(root.val);
                 root = root.right;  //看根的右节点开始是否有子树.
             }

@@ -11,6 +11,24 @@ public class 二叉树第k小的值230 {
      * }
      */
     //在二叉查找树中,中序遍历则是按照元素值的从小到大排列的,所以对中序遍历进行改动.
+        //https://leetcode.com/problems/validate-binary-search-tree/discuss/32112/Learn-one-iterative-inorder-traversal-apply-it-to-multiple-tree-questions-(Java-Solution)
+        //public int kthSmallest(TreeNode root, int k) {
+    //        //根据中序遍历的另一种解法.更好!!!!!!
+    //        Stack<TreeNode> stack = new Stack<>();
+    //        while(root != null || ! stack.empty()){
+    //            while(root != null){
+    //                stack.push(root);
+    //                root = root.left;
+    //            }
+    //            root = stack.pop();
+    //            if(--k == 0){
+    //                break;  //先减,如果满足,则说明当前弹出的root就是要找的第k小值,break退出一层循环(最外层);因为中序遍历就是由小到大.跟94中序遍历唯一区别就是不用把节点放进list.
+    //            }
+    //            root = root.right;
+    //
+    //        }
+    //        return root.val;
+    //    }
     class Solution {
         int res;  //最终结果
         int count;  //计数

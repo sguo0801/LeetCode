@@ -1,5 +1,5 @@
 package 数据结构.树.递归;
-
+//思路就是递归向下传更新的num值.当恰好为叶子节点且num与当前节点值相同则true
 public class 路径总和112 {
     /**
      * Definition for a binary tree node.
@@ -21,7 +21,7 @@ public class 路径总和112 {
                 return true;
             }
 
-            return hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val);
+            return hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val);  //注意这里是||.有一边实现即可.
         }
     }
 }

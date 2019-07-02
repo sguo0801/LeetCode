@@ -15,9 +15,9 @@ public class 复原IP地址93 {
     class Solution {
         public List<String> restoreIpAddresses(String s) {
             List<String> res = new ArrayList<>();
-            int i, j, k, l;
+            int i, j, k;
             int len = s.length();
-            for(i = 1; i < 4 && i < len-2; i++){  //i作为前两个数的边界,后面用substring,不包含,所以可以到3,但是要保证后面最起码留三个数,给后三位,包括i,i+1,i+2,其中(i+2 < len).
+            for(i = 1; i < 4 && i < len-2; i++){  //##注意i的取值,从1到3(最多是三个数); i作为前两个数的边界,后面用substring,不包含,所以可以到3,但是要保证后面最起码留三个数,给后三位,包括i,i+1,i+2,其中(i+2 < len).
                 for(j = i+1; j < i+4 && j < len-1; j++){
                     for(k = j+1; k < j+4 && k < len; k++){  //最后一个数可以为k那位.
                         String s1 = s.substring(0, i);
@@ -34,7 +34,7 @@ public class 复原IP地址93 {
         }
 
         private boolean isValid(String s){  //是小段数字,保证长度1~3个,且如果首位是0,那么就只能有一位,并且数值小于255
-            if(s.length() < 1 || s.length() > 3 || (s.charAt(0) == '0' && s.length() > 1) || Integer.valueOf(s) > 255){
+            if(s.length() < 1 || s.length() > 3 || (s.charAt(0) == '0' && s.length() > 1) || Integer.valueOf(s) > 255){   //###注意判断s的长度在1到3之间.另外如果多个字符,收尾不能为'0';
                 return false;
             }else{
                 return true;

@@ -1,5 +1,5 @@
 package 数据结构.树.二叉查找树BST;
-
+//思路就是有序列表,直接二分法就可以.
 public class 数组转为平衡二叉树108 {
     /**
      * Definition for a binary tree node.
@@ -14,7 +14,7 @@ public class 数组转为平衡二叉树108 {
         public TreeNode sortedArrayToBST(int[] nums) {
 
             //构造平衡二叉树,就是找每个子树的根,且根是各段中间的值,左右个数几乎相同,相当于均分了长度,即高度差不会大于1
-            return toFeed(nums, 0, nums.length - 1);
+            return toFeed(nums, 0, nums.length - 1);  //注意右侧是有端点索引为length-1.
             //return root;  //在方法中返回树节点.
         }
 

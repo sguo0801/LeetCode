@@ -48,6 +48,8 @@ public class 链表转为平衡二叉树109 {
      *     TreeNode(int x) { val = x; }
      * }
      */
+    //思路,找到链表的root及第一次分段的点(root和之前的节点断开),root根据pre找,将pre跟root断开后,
+    // 要建立真正的根rroot,因为首先是要将链节点转换为树节点,另外原root与后面的节点相连,可能不是树要的指向连接,但是,这个原链的连接不能断,否则后面的链(root后面)无法递归
     class Solution {
         public TreeNode sortedListToBST(ListNode head) {
             if(head == null){
@@ -55,7 +57,7 @@ public class 链表转为平衡二叉树109 {
             }
 
             if(head.next == null){
-                return new TreeNode(head.val);
+                return new TreeNode(head.val);  //不能跟上面合起来写,注意空指针异常.
             }
 
             ListNode premid = toFeed(head);  //此时premid为中间点前一个点,因为fast初始为head.next;
@@ -74,8 +76,8 @@ public class 链表转为平衡二叉树109 {
             // }
             ListNode slow = head;
             ListNode fast = head.next; //##题目的核心就在这里,能够使在fast完成遍历时slow在中间偏左的位置
-            ListNode pre = head;  //##最后的核心在这里,返回的是premid.保证12345,返回2,root为3,再中间断掉.1234的话就是返回1,root为2,在断掉,左1,右2;
-            while(fast != null && fast.next != null){
+            ListNode pre = head;  //##pre赋值为head.最后的核心在这里,返回的是premid.保证12345,返回2,root为3,再中间断掉.1234的话就是返回1,root为2,在断掉,左1,右2;
+            while(fast != null && fast.next != null){   //###要用&&,都要满足不为空才可以.
                 pre = slow;
                 slow = slow.next;
                 fast = fast.next.next;
