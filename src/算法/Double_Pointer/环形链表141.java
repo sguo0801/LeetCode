@@ -11,6 +11,7 @@ package 算法.Double_Pointer;
  *     }
  * }
  */
+//思路是有环则快慢节点早晚会遇到.没有环则末端节点为null,跳出循环.
 //注意要先判断一个和没有节点的情况.然后保证有fast(可能为空,但不会是空指针错误.
 public class 环形链表141 {
     public boolean hasCycle(ListNode head) {

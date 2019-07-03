@@ -1,7 +1,7 @@
 package 数据结构.哈希表;
 
 import java.util.HashMap;
-
+//思路:用HashMap();根据num的两侧确定num并更新序列边界值对应的长度值
 public class 最长连续序列128 {
     class Solution {
         public int longestConsecutive(int[] nums) {

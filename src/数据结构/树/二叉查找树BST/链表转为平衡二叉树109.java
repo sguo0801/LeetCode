@@ -48,6 +48,7 @@ public class 链表转为平衡二叉树109 {
      *     TreeNode(int x) { val = x; }
      * }
      */
+    //分割链表与148相同.
     //思路,找到链表的root及第一次分段的点(root和之前的节点断开),root根据pre找,将pre跟root断开后,
     // 要建立真正的根rroot,因为首先是要将链节点转换为树节点,另外原root与后面的节点相连,可能不是树要的指向连接,但是,这个原链的连接不能断,否则后面的链(root后面)无法递归
     class Solution {
@@ -61,7 +62,9 @@ public class 链表转为平衡二叉树109 {
             }
 
             ListNode premid = toFeed(head);  //此时premid为中间点前一个点,因为fast初始为head.next;
-            ListNode root = premid.next;  //root即为树的根节点,1234,即premid为1,root为2,左1,右2;若12345,则premid为2,root为3.左2,右2,均符合要求.
+            ListNode root = premid.next;
+            //root即为树的根节点,1234,即premid为1,root为2,左1,右2;(这里左2,右1也可以,代码改动只需要把toFeed中fast初值改成head即可)
+            //若12345,则premid为2,root为3.左2,右2,均符合要求.
             premid.next = null; //这里其实是把root的前面断掉,这样没有指向root的节点,确立为root.这里是指针
             TreeNode rroot = new TreeNode(root.val);  //根据root确立根节点.这里是值.
             rroot.left = sortedListToBST(head);

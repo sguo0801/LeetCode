@@ -41,7 +41,7 @@ public class 被围绕的区域130 {
             }
             if (board[i][j] == 'O') {
                 board[i][j] = '-';
-                dps(board, i + 1, j);
+                dps(board, i + 1, j);  //##dps是在找到O源头才开始,否则会栈溢出.
                 dps(board, i - 1, j);
                 dps(board, i, j + 1);
                 dps(board, i, j - 1);
