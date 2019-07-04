@@ -9,7 +9,7 @@ public class 同构字符串205 {
             int[] indexs = new int[256];   //不一定都是字母,所以用256个长度的数组
             int[] indext = new int[256];
             for (int i = 0; i < s.length(); i++) {
-                if (indexs[s.charAt(i)] != indext[t.charAt(i)]) {
+                if (indexs[s.charAt(i)] != indext[t.charAt(i)]) {  //因为最开始都是0.可以任意两个字符配对.这里是把字符对应的数字当做索引.
                     return false;
                 }
                 indexs[s.charAt(i)] = indext[t.charAt(i)] = i + 2;  //这边i+1,或者i+2都是一样的,主要是标记,不是0就好.

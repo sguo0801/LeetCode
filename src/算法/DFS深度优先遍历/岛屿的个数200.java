@@ -23,12 +23,12 @@ public class 岛屿的个数200 {
         }
 
         private void dps(char[][] grid, int i, int j){
-            if(i < 0 || i >= m || j < 0 || j >= n || grid[i][j] == '0'){  //有必要进行边界限制
+            if(i < 0 || i >= m || j < 0 || j >= n || grid[i][j] == '0'){  //##注意m,n到不了.有必要进行边界限制
                 return;
             }
             grid[i][j] = '0'; //标记
             for(int[] d : next){
-                dps(grid, i+d[0], j+d[1]);  //延伸该岛屿并进行后面的标记
+                dps(grid, i+d[0], j+d[1]);  //延伸该岛屿并进行后面的标记,不需要取消标记.
             }
         }
     }

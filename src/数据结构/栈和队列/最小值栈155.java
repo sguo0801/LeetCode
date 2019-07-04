@@ -15,7 +15,7 @@ public class 最小值栈155 {
 
         public void push(int x) {
             dataStack.push(x);
-            min = Math.min(min, x);
+            min = Math.min(min, x);  //这个min不能合到下面去,即不能写成minStack.push(Math.min(min, x));###原因???
             minStack.push(min);
         }
 
