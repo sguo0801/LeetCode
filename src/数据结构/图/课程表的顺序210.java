@@ -3,7 +3,8 @@ package 数据结构.图;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Queue;
- //这题目用的bfs,比dfs要快很多.
+ //这题目用的bfs,比dfs要快很多.最主要这里要把课程顺序找出来,所以当先决课程为0,则放入队列中,队列在放入排序数组返回.依次以这个课程为先决课程的limit中对应索引的值减少
+//dfs是一个标记数组,这里是一个int数组进行数量动态更新.
 public class 课程表的顺序210 {
     class Solution {
         public int[] findOrder(int numCourses, int[][] prerequisites) {
@@ -13,17 +14,17 @@ public class 课程表的顺序210 {
 
             //先做好有向图graph.然后在中间做好limit数组.
             ArrayList[] graph = new ArrayList[numCourses];   //这里graph用ArrayList<<ArrayList<>>(),也可以.
-            for (int i = 0; i < numCourses; i++) {
+            for (int i = 0; i < numCourses; i++) {  //先让数组连接list
                 graph[i] = new ArrayList<Integer>();  //先把数组中填充空白列表
             }
 
             int[] limit = new int[numCourses];  //limit先决课程数量
             for (int[] pre : prerequisites) {  //填充列表,并且把受控课程的先决数量标记清楚.
                 graph[pre[1]].add(pre[0]);
-                limit[pre[0]]++;
+                limit[pre[0]]++;    //这边是受控课程对应数量+1.
             }
 
-            return bfs(graph, limit);
+            return bfs(graph, limit);  //不需要像dfs以i为头进行递归
         }
 
         private int[] bfs(ArrayList[] graph, int[] limit) {
@@ -39,7 +40,7 @@ public class 课程表的顺序210 {
             int index = 0;    //order数组的索引.
             while (!queue.isEmpty()) {
                 int head = queue.poll();  //开始访问
-                order[index++] = head;    //放进数组中
+                order[index++] = head;    //##放进答案数组中,不是limit,别混咯
 
                 //更新先决课程数量,并把更新后为数量0的放入queue中.
                 for (int i = 0; i < graph[head].size(); i++) {   // graph[head]中是被head影响的课程temp;

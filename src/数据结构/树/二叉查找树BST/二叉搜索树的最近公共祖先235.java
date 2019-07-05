@@ -22,7 +22,16 @@ public class 二叉搜索树的最近公共祖先235 {
                     return root;
                 }
             }
-            return null;
+            return null;  //如果没有限定到,就是null,没有共同祖先
         }
     }
+    //也可以是递归方法
+//    //最近祖先就是两者间的一个根,即在p,q闭区间中,可以是他们本身.
+//    class Solution {
+//        public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+//            if (root.val > p.val && root.val > q.val) return lowestCommonAncestor(root.left, p, q);
+//            if (root.val < p.val && root.val < q.val) return lowestCommonAncestor(root.right, p, q);
+//            return root;
+//        }
+//    }
 }

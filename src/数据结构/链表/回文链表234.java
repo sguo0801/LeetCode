@@ -1,5 +1,5 @@
 package 数据结构.链表;
-
+//回文链表思路就是先找到右链head,然后反转有链,俩链同时从头进行比较
 public class 回文链表234 {
     /**
      * Definition for singly-linked list.

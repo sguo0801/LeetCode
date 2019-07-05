@@ -19,7 +19,7 @@ public class 个位数组合总和216 {
 
             for(int i = start; i < 10; i++){
                 list.add(i);
-                dps(res, list, i+1, k-1, n-i);
+                dps(res, list, i+1, k-1, n-i);  //不是start+1,是i+1;也要注意不是n-1,而是n-i;
                 list.remove(list.size()-1);
             }
         }
