@@ -11,9 +11,9 @@ public class 搜索二维矩阵240 {
             int row = 0;
             int col = n - 1;
             while (row < m && col >= 0) {
-                if (target == matrix[row][col]) {
+                if (target == matrix[row][col]) { //##注意别马虎写错[]
                     return true;
-                } else if (target > matrix[row][col]) {
+                } else if (target > matrix[row][col]) {  //##别马虎 写错target
                     row++;
                 } else {
                     col--;

@@ -13,13 +13,13 @@ public class 寻找重复数287 {
         public int findDuplicate(int[] nums) {
             //把每个nums的值当做下一个数的索引指针.相当于找环形链表的入口
             int slow = nums[0];
-            int fast = nums[nums[0]];
+            int fast = nums[nums[0]];  //这边必须是快比慢多一个位置,因为这样下面循环才能进行.
             while (fast != slow) {
                 slow = nums[slow];
                 fast = nums[nums[fast]];
             }
 
-            fast = 0;  //现在是相遇了开始找入口,快的从0,即第一个值开始.
+            fast = 0;  //现在是相遇了开始找入口,##因为初始fast多一个位置,这边就要多走一个位置,所以初始为0而不是nums[0]
             while (slow != fast) {
                 slow = nums[slow];
                 fast = nums[fast];

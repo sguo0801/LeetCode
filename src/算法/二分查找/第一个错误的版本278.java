@@ -11,7 +11,7 @@ public class 第一个错误的版本278 {
 //            while(l < r){
 //                int mid = l + (r - l) / 2;
 //                if(isBadVersion(mid)){
-//                    r = mid;
+//                    r = mid;  //主要是要第一个版本,这里为true,可能就是这里出的问题.所以mid不能舍.
 //                }else{
 //                    l = mid + 1;
 //                }

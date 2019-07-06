@@ -2,7 +2,7 @@ package 算法.回溯_求解排列组合问题的DFS;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//思路就是回溯.不回头
 public class 二叉树所有路径257 {
     /**
      * Definition for a binary tree node.
@@ -16,7 +16,7 @@ public class 二叉树所有路径257 {
     class Solution {
         public List<String> binaryTreePaths(TreeNode root) {
             List<String> res = new ArrayList<String>();
-            if(root != null){
+            if(root != null){  //必须保证root!=null,否则递归中root.left和root.right会越界
                 dps(root, "", res);
             }
             return res;

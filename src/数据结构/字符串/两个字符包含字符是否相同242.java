@@ -1,5 +1,5 @@
 package 数据结构.字符串;
-
+//思路:两个数组,一个+次数,一个-次数
 public class 两个字符包含字符是否相同242 {
     class Solution {
         public boolean isAnagram(String s, String t) {
