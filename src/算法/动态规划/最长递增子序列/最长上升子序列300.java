@@ -43,13 +43,14 @@ public class 最长上升子序列300 {
         dp[0] = 1;  //时刻注意dp数组的初始,设置好值.
         int max;
         for (int i = 1; i < nums.length; i++) {
-            max = 1; //从第二个元素开始,先有一个元素,则长度初始为1,且每轮循环更新
+            max = 1; //从第二个元素开始,先有一个元素,则长度初始为1,且每轮循环更新,每一个新的结尾,都与可能为1.
             for (int j = 0; j < i; j++) {  //从0到i-1找比nums[i]小的
                 if (nums[i] > nums[j]) {
-                    max = Math.max(max, dp[j] + 1);  //如果比nums[j]大,则长度可以在dp[j]上直接+1.
+                    max = Math.max(max, dp[j] + 1);  //如果比nums[j]大,则长度可以在dp[j]上直接+1.##每个dp[j]都是以nums[j]为尾巴的最长子序列长度.
+                    // >nums[j]就是代表当前dp[i]可以是dp[j]长度+1的值.//选最大的保存
                 }
             }
-            dp[i] = max;  //保存当前元素nums[i]为结尾的最大子序列长度.
+            dp[i] = max;  //保存当前元素nums[i]为结尾的最大子序列长度.如果当前值比较小,这里直接就是1.
         }
 
         max = 0;
