@@ -21,9 +21,9 @@ public class _297 {
         }
         private StringBuilder serial(StringBuilder sb, TreeNode root){
             if(root == null){
-                return sb.append("null");
+                return sb.append("#");
             }
-            sb.append("root.val").append(",");
+            sb.append(root.val).append(",");   //添加的是root.val.注意不是字符串
             serial(sb, root.left).append(",");  //直接递归不多BB.
             serial(sb, root.right);  //右节点被上层的,写好啦.
             return sb;   //序列化得到:1,2,null,null,3,4,5.没要求常规遍历,能回去就恶性
@@ -35,7 +35,7 @@ public class _297 {
         }
         private TreeNode deserial(LinkedList<String> list){  //不需要也没有根节点
             String sb = list.poll();  //##先提出第一部分子串
-            if("null".equals(sb)){
+            if("#".equals(sb)){
                 return null;
             }
             //不为空就转换成节点
@@ -44,6 +44,7 @@ public class _297 {
             root.right = deserial(list);
             return root;
         }
+
     }
 
 // Your Codec object will be instantiated and called as such:

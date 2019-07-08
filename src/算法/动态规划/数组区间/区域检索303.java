@@ -39,7 +39,7 @@ public class 区域检索303 {
         }
 
         public int sumRange(int i, int j) { //i,j与上面sums的索引一致
-            return i == 0 ? sums[j] : sums[j] - sums[i - 1];
+            return i == 0 ? sums[j] : sums[j] - sums[i - 1];  //###也要注意索引越界的情况,且i=0,则返回sums[j];
         }
     }
 
