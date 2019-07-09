@@ -9,9 +9,10 @@ public class 奇偶链表328 {
      *     ListNode(int x) { val = x; }
      * }
      */
+    //思路:直接指定偶数节点头.分别进行后移,注意指针节点从第二个开始,最后连接.
     class Solution {
         public ListNode oddEvenList(ListNode head) {
-            if(head != null){  //如果头是null,最后返回head
+            if(head != null){  //如果头是null,最后返回head##必须看好边界条件.
                 ListNode odd = head;
                 ListNode even = head.next; //这里是指针节点
                 ListNode evenHead = head.next;  //这是偶节点的头
@@ -24,7 +25,7 @@ public class 奇偶链表328 {
                 }
                 odd.next = evenHead;
             }
-            return head;
+            return head;  //##注意返回head,不是odd
         }
     }
 }

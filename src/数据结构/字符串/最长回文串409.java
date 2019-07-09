@@ -1,5 +1,5 @@
 package 数据结构.字符串;
-
+//思路:先把每个字符的出现次数放进数组.然后遍历数组时,只要2以上次数的都可以添加.用/2*2操作可以无所谓奇偶,最后多的字符长度再+1.可以放在最中间.
 public class 最长回文串409 {
     class Solution {
         public int longestPalindrome(String s) {

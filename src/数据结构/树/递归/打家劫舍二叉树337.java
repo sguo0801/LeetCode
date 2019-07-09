@@ -51,7 +51,7 @@ public class 打家劫舍二叉树337 {
 
             private int[] dps(TreeNode root){
                 if(root == null){//边界条件，r为null时，跳出
-                    return new int[2];
+                    return new int[2];  //返回的是2个格子的新数组.不是new int[]{};
                 }
                 int[] left = dps(root.left);//对于以r.left为根的树，计算抢劫根节点(r.left)与不抢劫根节点可获得最大金额. left[0]则为不抢r.left可获得的最大金额,left[1]则为抢劫r.left可获得的最大金额  以下right[] 分析同理
                 int[] right = dps(root.right);

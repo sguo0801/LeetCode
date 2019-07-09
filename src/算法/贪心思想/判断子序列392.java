@@ -18,7 +18,7 @@ public class 判断子序列392 {
 //            return false;
 //        }
 //    }
-
+//思路:就是先看第一个字符在t中的位置,然后记住索引.从这个位置找第二个字符,一直到最后.只要返回-1.则说明不是子序列
         public boolean isSubsequence(String s, String t) {
             int index = -1;  //以-1为初始值就是从0开始找
             for(char c : s.toCharArray()){

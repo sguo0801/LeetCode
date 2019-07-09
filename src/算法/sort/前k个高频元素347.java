@@ -29,14 +29,15 @@ public class 前k个高频元素347 {
         }
 
         List<Integer> top = new ArrayList<Integer>();
+        //要注意是top.size()<k;这边要一直加到满.后面某一项值多的话,也是在这个for里面用subList
         for(int i = bucket.length - 1; i > 0 && top.size() < k; i--){ //3.从后向前遍历桶(用桶的索引)后面频率高.但是同时要保证top中数量小于k.=的时候已经不能再加啦,前k高要保证有k个元素
-            if(bucket[i] == null){
+            if(bucket[i] == null){   //空的话没有size().所以这里必须写好边界条件
                 continue;
             }
-            if(bucket[i].size() <= k - top.size()){//分情况,一种下一个频率中数目没有超过剩下还需要的数目,就全加入,这里bukcet[i]已经是liet,用size().
+            if(bucket[i].size() <= k - top.size()){//##这里有无=均可.分情况,一种下一个频率中数目没有超过剩下还需要的数目,就全加入,这里bucket[i]已经是list,用size().
                 top.addAll(bucket[i]);
             }else{
-                top.addAll(bucket[i].subList(0, k - top.size())); //取到正好满足k个数为止.
+                top.addAll(bucket[i].subList(0, k - top.size())); //取到正好满足k个数为止.###注意都是addAll(),且是bucket[i],有i.
             }
 
         }

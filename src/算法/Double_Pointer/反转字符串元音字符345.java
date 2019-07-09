@@ -13,7 +13,7 @@ public class 反转字符串元音字符345 {
         //###String temp = "aeiouAEIOU";
         char[] res = new char[s.length()];  //作为结果存放的数组
         while (i <= j) {  //########必须是<=才行,否则res不能填充完整
-            char ci = s.charAt(i);
+            char ci = s.charAt(i);   //先取字符,再判断放入
             char cj = s.charAt(j);
             if (!set.contains(ci)) {  //说明不是元音字符,直接填进res
                 res[i++] = ci; //两个数组,所以都要分别移动指针
@@ -40,7 +40,7 @@ class Solution {
         String temp = "aeiouAEIOU";  //可以的,法二只要用indexOf判断即可
         char[] res = new char[s.length()];  //作为结果存放的数组
         while (i <= j) {
-            char ci = s.charAt(i);
+            char ci = s.charAt(i);  //要把字符提出来,否则后面直接写res[i++]=s.charAt(i).i已经变化.
             char cj = s.charAt(j);
             if (temp.indexOf(ci) == -1) {  //说明不是元音字符,直接填进res
                 res[i++] = ci; //两个数组,所以都要分别移动指针

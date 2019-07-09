@@ -7,7 +7,7 @@ public class 有序矩阵中第k小的元素378 {
     class Solution {
         public int kthSmallest(int[][] matrix, int k) {
             //法一,优先队列通俗解法,因为是要找小的元素,所以用大顶堆,因为这道题目有排序,所以这样不是很好
-            PriorityQueue<Integer> queue = new PriorityQueue<Integer>(k, new Comparator<Integer>() {
+            PriorityQueue<Integer> queue = new PriorityQueue<Integer>(k, new Comparator<Integer>() {  //###比较器大括号里放compare
                 public int compare(Integer a, Integer b) {  //必须是包装类,必须是compare与compareTo.
                     return b.compareTo(a);  //降序排列.
                 }
