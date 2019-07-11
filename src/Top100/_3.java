@@ -1,7 +1,7 @@
 package Top100;
-
+//https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/solution/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/
 import java.util.HashMap;
-
+//同438,76一样,都是双指针+map
 public class _3 {
     class Solution {
         public int lengthOfLongestSubstring(String s) {

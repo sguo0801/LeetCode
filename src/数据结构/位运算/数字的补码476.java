@@ -1,5 +1,5 @@
 package 数据结构.位运算;
-
+//主要思路是^上对应位数的1111.
 public class 数字的补码476 {
     class Solution {
         public int findComplement(int num) {

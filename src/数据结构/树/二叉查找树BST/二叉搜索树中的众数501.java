@@ -20,7 +20,7 @@ public class 二叉搜索树中的众数501 {
         public int[] findMode(TreeNode root) {
             //能用ArrayList就不要用HashMap,这里list可以直接添加符合要求的元素,而map还要再比较
             //思路是中序遍历,因为相同肯定连着,然后有记录当前数最大数量值,和之前数最大数量值,作比较进行list添加值.
-            ArrayList<Integer> list = new ArrayList<>();  //list中添加的是可能是众数的数值.
+            ArrayList<Integer> list = new ArrayList<>();  //list中添加的是可能是众数的数值,因为可以有多个众数
             inOrder(root, list);  //list也发生变化,但是是容器,所以放在函数参数中,本身可变,而数字作为形参回来就不会变.
             int[] res = new int[list.size()];
             //这边要使用foreach循环,没有i,所以先建一个索引变量.
@@ -48,7 +48,7 @@ public class 二叉搜索树中的众数501 {
                 max = cur;
                 list.clear(); //众数值开始改变,先清空
                 list.add(root.val);  //天剑符合要求的众数值
-            } else if (cur == max) {  //##第一个数在这里
+            } else if (cur == max) {  //##第一个数在这里,或者重复的众数也会相同
                 list.add(root.val);  //两个数量均为最大
             }
 

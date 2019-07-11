@@ -1,5 +1,5 @@
 package 算法.贪心思想;
-
+//思路:依旧是按尾巴排序
 import java.util.Arrays;
 import java.util.Comparator;
 //这道题目的lambda没有搞懂

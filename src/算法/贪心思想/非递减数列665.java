@@ -8,7 +8,7 @@ public class 非递减数列665 {
                     index++;
                     if(i >= 2 && nums[i] < nums[i - 2]){  //342的情况
                         nums[i] = nums[i - 1];
-                    }else{  //42的情况,前面都是排列好的
+                    }else{  //42的情况,前面都是排列好的,这样第一个数可以很小.
                         nums[i - 1]  = nums[i];
                     }
                 }

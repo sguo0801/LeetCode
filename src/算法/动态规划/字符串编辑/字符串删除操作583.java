@@ -14,6 +14,6 @@ public class 字符串删除操作583 {
                 }
             }
         }
-        return m + n - 2 * dp[m][n];
+        return m + n - 2 * dp[m][n];  //一共的减去不需要删除的
     }
 }

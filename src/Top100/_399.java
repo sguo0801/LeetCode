@@ -1,45 +1,63 @@
 package Top100;
-//尤其注意索引值都是s.charAt(i)-'a';
+
+import java.util.HashMap;
+import java.util.List;
+
 public class _399 {
     class Solution {
-        public int longestSubstring(String s, int k) {
-            if(s == null || s.length() < k){  //首先解决边界条件.
-                return 0;
+        public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
+            //字符串用map进行映射
+            HashMap<String, String> parent = new HashMap<>();  //作为当前节点与父节点的连通.即节点,父节点;find都是通过父节点再递归找到根
+            HashMap<String, Double> ratio = new HashMap<>();  //节点,节点/父节点的值.
+            //根据方程式建立连通
+            for (int i = 0; i < equations.size(); i++) {  //要把values[i]放进来,不能用foreach
+                union(parent, ratio, equations.get(i).get(0), equations.get(i).get(1), values[i]);  //注意get后面是()
             }
-            //k如果小于2,则相当于没要求
-            if(k < 2){
-                return s.length();
-            }
-            return count(s, k, 0, s.length() - 1);
-
-        }
-        private int count(String s, int k, int begin, int end){
-            if(end - begin + 1 < k){
-                return 0;
-            }
-            int[] times = new int[26];
-            for(int i = begin; i <= end; i++){
-                times[s.charAt(i) - 'a']++;   //把 每个字符的频率放进数组.
-            }
-            //开始剔除频率不合适的字符.从左右两侧逼近.
-            while(end - begin + 1 >= k && times[s.charAt(begin) - 'a'] < k){  //##不需要到两个指针索引相遇.只要两者之差<k即可跳出循环,并且下面的if返回0.
-                begin++;
-            }
-            while(end - begin + 1 >= k && times[s.charAt(end) - 'a'] < k){  //##注意这里都是字符的int值作为索引.不能直接写end,begin当做索引
-                end--;
-            }
-
-            if(end - begin + 1 < k){
-                return 0;   //这边判断的情况只能是上面两个while都没有遇到符合频率>k的字符结果字符串已经不够k个字符啦.但是上面只要遇到合适的字符就不会<k.
-            }
-
-            //开始从两侧第一个符合频率要求的字符串内找不满足频率的字符进行切割
-            for(int i = begin; i <= end; i ++){
-                if(times[s.charAt(i) - 'a'] < k){  //##这里也是s.charAt(i) - 'a'为索引.
-                    return Math.max(count(s, k, begin, i-1), count(s, k, i+1, end));
+            double[] res = new double[queries.size()];
+            for (int i = 0; i < queries.size(); i++) {
+                String s1 = queries.get(i).get(0);  //问题中的被除数
+                String s2 = queries.get(i).get(1);  //问题中的除数
+                if(!parent.containsKey(s1) || !parent.containsKey(s2) || !find(parent, ratio, s1).equals(find(parent, ratio, s2))){
+                    res[i] = -1.0;  //s1或者s2根本就不在连通的map中,或者而这不在同一组,即没有连通性则返回-1.
+                }else {
+                    res[i] = ratio.get(s1) / ratio.get(s2);  //算的是二者与根的比率,这样子以根为标准,可以得出二者的比率.
                 }
+
             }
-            return end - begin + 1;  //到这里就是说明从两侧遇到的第一个有效字符起,整条字符串不用切割.
+            return res;
+        }
+
+        private void union(HashMap<String, String> parent, HashMap<String, Double> ratio, String s1, String s2, double n) {
+            if (!parent.containsKey(s1)) {
+                parent.put(s1, s1);
+                ratio.put(s1, 1.0);
+            }
+            if (!parent.containsKey(s2)) {
+                parent.put(s2, s2);
+                ratio.put(s2, 1.0);
+            }
+            //说明连通,则进行根节点相连.
+            //把变量提出来,否则可能赋值时会有影响
+            String p1 = find(parent, ratio, s1);
+            String p2 = find(parent, ratio, s2);
+            parent.put(p1, p2);  //把被除数连接在除数的数上.方便更新radio
+            ratio.put(p1, n * ratio.get(s2) / ratio.get(s1));  //此处求是s1的根与s2的根的比率.画个图s1为8,p1为2,s2为3,p2为1.已经n为s1与s2的比率8/3.求得p1/p2为8/3*3/4 = 2.
+        }
+
+        private String find(HashMap<String, String> parent, HashMap<String, Double> ratio, String s) {
+            if(parent.get(s).equals(s)){
+                return s;  //先判断本身是否为根.
+            }
+//            if (!parent.containsKey(s)) {  //不需要判断parent中不存在s,这样进不来.
+//                return null;
+//            }
+            String father = parent.get(s);
+            String grandpa = find(parent, ratio, father);
+            //这里就是通过递归找根,然后直接将s连接到根上,就是每一个节点都是连接到根上.而算法中是通过while迭代爷爷节点再连接到根.这里是使用递归.目的都是让节点与根相连.
+            parent.put(s, grandpa);
+            //连接之后要赋s与根的比率
+            ratio.put(s, ratio.get(s) * ratio.get(father));  //就是s到father的比率*father到根的比率 = s到根的比率.
+            return grandpa;  //返回根.
         }
     }
 }

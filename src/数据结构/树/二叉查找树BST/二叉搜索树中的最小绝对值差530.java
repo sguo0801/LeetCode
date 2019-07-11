@@ -27,7 +27,7 @@ public class 二叉搜索树中的最小绝对值差530 {
             if(preNode != null){  //先判断前一个节点是否为null
                 min = Math.min(min, root.val - preNode.val);  //这边是当前节点-前一个节点的值.题中说明都为非负.
             }
-            preNode = root;  //第一次是作为根节点进行赋值.
+            preNode = root;  //第一次是作为根节点进行赋值.之后是后移
             inOrder(root.right);
 
         }

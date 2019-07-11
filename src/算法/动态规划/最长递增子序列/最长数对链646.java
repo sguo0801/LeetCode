@@ -1,7 +1,7 @@
 package 算法.动态规划.最长递增子序列;
 
 import java.util.Arrays;
-//lambda排序不是很懂?????
+
 public class 最长数对链646 {
     public int findLongestChain(int[][] pairs) {
         if (pairs == null || pairs.length == 0 || pairs[0].length == 0) {
@@ -14,6 +14,7 @@ public class 最长数对链646 {
         for (int i = 1; i < pairs.length; i++) {
             for (int j = 0; j < i; j++) {  //j是从前往后的尾跟当前元素的头作比较
                 if (pairs[j][1] < pairs[i][0]) {
+                    //dp[i]随着j的增大而增大
                     dp[i] = Math.max(dp[j] + 1, dp[i]);  //这一步相当于内循环更新dp[i],外循环给整个dp数组赋值.dp[i]初始均为1
                 }
             }
