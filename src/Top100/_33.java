@@ -20,7 +20,7 @@ public class _33 {
                     }else{
                         left = mid + 1;
                     }
-                } else{
+                } else{  //现在是mid右侧为升序,这两种序列情况必有一种成立
                     if(target <= nums[right] && target > nums[mid]){  //注意右边界有=
                         left = mid + 1;
                     }else{

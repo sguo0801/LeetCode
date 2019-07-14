@@ -12,10 +12,11 @@ public class _23 {
      *     ListNode(int x) { val = x; }
      * }
      */
-//BFS的连接,使用优先队列,进行排序
+//思路:BFS的连接,使用优先队列,进行排序
     class Solution {
         public ListNode mergeKLists(ListNode[] lists) {
             if(lists == null || lists.length == 0){  //要先写.
+
                 return null;
             }
 

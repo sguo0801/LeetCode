@@ -1,6 +1,7 @@
 package Top100;
 
 import java.util.*;
+//思路:各字母异位符其中的字符在排序后均相同,建立map填充,然后返回map的值即可.
 //把每个字符变成字符数组,进行排序,则相同为同一组,map里面key要为String类型,且不能直接put初值,先建立空的ArrayList,再填数.
 public class _49 {
     class Solution {
@@ -15,9 +16,9 @@ public class _49 {
                 char[] c = s.toCharArray();
                 Arrays.sort(c);
                 String key = String.valueOf(c);
-                if(! map.containsKey(key))
+                if(! map.containsKey(key)) {
                     map.put(key, new ArrayList<String>());   //map的value,初始不能赋值
-
+                }
                 map.get(key).add(s);
 
             }

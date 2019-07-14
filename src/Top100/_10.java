@@ -52,6 +52,7 @@ public class _10 {
 //    }
     //r[i][j] means to index i of s and index j of p, whether it match or not.
     //if(pc[j - 1] == "*") r[0][j] = r[0][j - 2] why j - 2 here, means * cannot work alone.
+    //dp(i,j) 表示 \text{text[i:]}text[i:] 和 \text{pattern[j:]}pattern[j:] 是否能匹配
     class Solution {
         public boolean isMatch(String s, String p) {
             int m = s.length();
@@ -59,10 +60,10 @@ public class _10 {
             char[] cs = s.toCharArray();
             char[] cp = p.toCharArray();
             boolean[][] dp = new boolean[m + 1][n + 1];
-            dp[0][0] = true;
+            dp[0][0] = true;//就是没有字符固定匹配.
             //如果p开始是a*要去掉.// *可以消掉c*
-            for (int i = 2; i <= n; i++) {
-                if (cp[i - 1] == '*') {
+            for (int i = 2; i <= n; i++) {  //第2位开始的字符.
+                if (cp[i - 1] == '*') {  //这边已经是第二个字符啦,cp从0开始,dp从1开始对应两个串的第一个字符.
                     dp[0][i] = dp[0][i - 2];
                 }
             }
