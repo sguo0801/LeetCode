@@ -1,4 +1,7 @@
 package Top100;
+//时间复杂度: O(|S| + |T|)O(∣S∣+∣T∣)，其中 |S|∣S∣ 和 |T|∣T∣ 代表字符串 SS 和 TT的长度。在最坏的情况下，可能会对SS 中的每个元素遍历两遍，左指针和右指针各一遍。
+//
+//空间复杂度: O(|S| + |T|)O(∣S∣+∣T∣)。当窗口大小等于|S|∣S∣时为 SS。当 |T|∣T∣ 包括全部唯一字符时为 TT 。
 
 import java.util.HashMap;
 //最小覆盖子串,使用双指针+HashMap进行求解.
@@ -55,7 +58,7 @@ public class _76 {
                 }
             }
 
-            //5.如果只有"a"与"b"不同,这里通过minlen不发生变化则比s.length()长(初始设置length()+1)进行判断.
+            //5.如果只有"a"与"b"不同,这里通过minlen不发生变化则比s.length()长(初始设置length()+1)进行判断.初始要设置为不同才行,否则都默认设置为长度就是相同啦.
             if (minlen > s.length()){
                 return "";
             }

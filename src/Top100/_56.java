@@ -1,9 +1,15 @@
 package Top100;
-
+//时间复杂度：O(n\log{}n)O(nlogn)
+//
+//除去 sort 的开销，我们只需要一次线性扫描，所以主要的时间开销是排序的 O(nlgn)O(nlgn)
+//
+//空间复杂度：O(1)O(1) (or O(n)O(n))
+//
+//如果我们可以原地排序 intervals ，就不需要额外的存储空间；否则，我们就需要一个线性大小的空间去存储 intervals 的备份，来完成排序过程。
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-//合并区间
+//合并区间,这里是 按左端点排序,这样就只需要照看右边合并即可
 public class _56 {
     class Solution {
         public int[][] merge(int[][] intervals) {
@@ -25,10 +31,10 @@ public class _56 {
             list.add(newInter);
             for(int[] interval : intervals){
                 if(interval[0] <= newInter[1]){
-                    newInter[1] = Math.max(newInter[1], interval[1]);
+                    newInter[1] = Math.max(newInter[1], interval[1]);  //已经添加了,在原基础上改
                 }else{
                     newInter = interval;  //同一变量不会重叠?区间如果改掉一边端点则就是新的变量?
-                    list.add(newInter);
+                    list.add(newInter);  //同一变量进行添加
 
                 }
             }

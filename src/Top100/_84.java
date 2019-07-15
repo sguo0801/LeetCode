@@ -1,13 +1,17 @@
 package Top100;
+////时间复杂度：O(n)。 n个数字每个会被压栈弹栈各一次。
+////
+////空间复杂度： O(n)。用来存放栈中元素。
 //柱状图:https://blog.csdn.net/Zolewit/article/details/88863970,关于索引+1的内容,博客内是栈放入高度.本文是放入索引就可以不考虑栈空情况.
 //中文题解,包括code中最优法可以再看一下https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/zhu-zhuang-tu-zhong-zui-da-de-ju-xing-by-leetcode/
 import java.util.Stack;
-
+//本解法是原数组中先放入-1.这样面积的底边长都是i-(peek()+1).无论出栈后是否为空.
 public class _84 {
     class Solution {
         public int largestRectangleArea(int[] heights) {
             Stack<Integer> stack = new Stack<>();
-            stack.push(-1);  //为了最后把所有数组中的值弹出来.在图中这个-1的右下是第一个索引0,所以,当最后一个数弹出栈,栈中只有-1;作为求宽的左边界,比如2.1.2,第一次左边的2弹出,最后算1的面积,应该为3=length-(-1+1),-1为peek(),面积不是2.所以两种while的求面积方法一致.
+            stack.push(-1);  //为了最后把所有数组中的值弹出来.在图中这个-1的右下是第一个索引0,所以,当最后一个数弹出栈,栈中只有-1;作为求宽的左边界,
+            // 比如2.1.2,第一次左边的2弹出,最后算1的面积,应该为3=length-(-1+1),-1为peek(),面积不是2.所以两种while的求面积方法一致.
             int area = 0;
             for (int i = 0; i < heights.length; i++) {
                 //如果当前数小于栈顶,则就弹出栈顶,求包含该高度的对应的最大面积.只要有i就会压栈,所以while里看是否栈顶大.
