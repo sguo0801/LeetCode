@@ -1,5 +1,7 @@
 package Top100;
 //二叉树中任意节点连接的最大路径和
+//时间复杂度：O(N)O(N) 其中 NN 是结点个数。我们对每个节点访问不超过 2 次。
+//空间复杂度：O(\log(N))O(log(N))。我们需要一个大小与树的高度相等的栈开销，对于二叉树空间开销是 O(\log(N))O(log(N))。
 public class _124 {
     /**
      * Definition for a binary tree node.

@@ -17,7 +17,7 @@ public class _114 {
             if(root == null){
                 return;
             }
-            flatten(root.right);  //直奔最右下角的最大值.之后只要让前一个数的指针指向这个数即可(那是prev为这个数);
+            flatten(root.right);  //直奔最右下角的最大值.右下角的两个儿子是null,所以是右下角的节点.之后只要让前一个数的指针指向这个数即可(那是prev为这个数);
             flatten(root.left);
             root.right = prev;  //这边初始为null刚刚好.最后一个节点指向null;
             root.left = null; //手动修改左连接为null.链表只有一端指针.

@@ -1,5 +1,5 @@
 package Top100;
-
+//时间复杂度：O(n)
 public class _152 {
         //作者补充:代码可以处理这种情况。 对于零值，imax和imin必须都为零，因为任何数字的零次为零。 请参考imax和imin的定义。
         public static int maxProduct(int[] nums) {
