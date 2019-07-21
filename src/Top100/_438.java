@@ -11,6 +11,7 @@ public class _438 {
              从右端开始右滑, 遇到一个p内的字符就将counter减1, 如果counter变为0判断窗口是否满足要求
              一旦窗口大小等于p的长度, 需要删去左端点字符, 删去时需要考虑是否要将counter加1
              **/
+            //窗口内必须都是有用的字符,与76区分
             List<Integer> ret = new ArrayList<>();
             int m = s.length();
             int n = p.length();
