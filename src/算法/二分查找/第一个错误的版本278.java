@@ -7,7 +7,7 @@ public class 第一个错误的版本278 {
 //    public class Solution extends VersionControl {
 //        public int firstBadVersion(int n) {
 //            int l = 0;
-//            int r = n;
+//            int r = n;  //这里是长度值.
 //            while(l < r){
 //                int mid = l + (r - l) / 2;
 //                if(isBadVersion(mid)){

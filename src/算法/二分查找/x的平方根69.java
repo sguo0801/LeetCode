@@ -12,7 +12,7 @@ public class x的平方根69 {
                 int sqrt = x / mid;
                 if(sqrt == mid){
                     return mid;
-                }else if(sqrt < mid){
+                }else if(sqrt < mid){  //相当于mid > target
                     right = mid - 1;
                 }else{
                     left = mid + 1;  //一般还是要+1,或者-1,除非值可能是结果,比如有重复

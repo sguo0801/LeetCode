@@ -9,7 +9,7 @@ public class 寻找旋转排序数组中的最小值153 {
                 int mid = l + (r - l) / 2;
                 if(nums[mid] < nums[r]){
                     r = mid;
-                }else if (nums[mid] == nums[r]){ //000111这种情况可以与上面合并.直接把右侧相同值全部去除,即r=mid.
+                }else if (nums[mid] == nums[r]){ //000111这种情况可以与上面合并.直接把右侧相同值全部去除,即r=mid.但是3313这种就不行,所以重复值要每次-1.
                     r--;
                 }else{
                     l = mid + 1;
