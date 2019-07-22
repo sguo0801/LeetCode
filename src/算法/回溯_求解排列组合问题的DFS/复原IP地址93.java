@@ -34,7 +34,7 @@ public class 复原IP地址93 {
         }
 
         private boolean isValid(String s){  //是小段数字,保证长度1~3个,且如果首位是0,那么就只能有一位,并且数值小于255
-            if(s.length() < 1 || s.length() > 3 || (s.charAt(0) == '0' && s.length() > 1) || Integer.valueOf(s) > 255){   //###注意判断s的长度在1到3之间.另外如果多个字符,收尾不能为'0';
+            if(s.length() < 1 || s.length() > 3 || (s.charAt(0) == '0' && s.length() > 1) || Integer.valueOf(s) > 255){   //###注意判断s的长度在1到3之间.另外如果多个字符,首不能为'0';
                 return false;
             }else{
                 return true;

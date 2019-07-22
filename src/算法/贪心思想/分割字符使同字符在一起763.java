@@ -1,5 +1,5 @@
 package 算法.贪心思想;
-
+// 实际上是贪心算法思想的一次运用，在每一步中得到截止目前为止的局部最优解，后一个最优解总是比前一个最优解“更优”， 由此推进到结束时，便可得到全局最优解。
 import java.util.ArrayList;
 import java.util.List;
 
