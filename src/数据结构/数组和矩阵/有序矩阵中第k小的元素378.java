@@ -12,7 +12,7 @@ public class 有序矩阵中第k小的元素378 {
                     return b.compareTo(a);  //降序排列.
                 }
             });
-                        int m = matrix.length;
+            int m = matrix.length;
             int n = matrix[0].length;
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < m; j++) {

@@ -1,5 +1,6 @@
 package 数据结构.图;
 //本题现在是DPS做法,第二次遇到用BFS试试.
+//思路是从一个节点开始,赋值1,再遍历其graph,看其中的节点是否满足要求.
 public class 判断二分图785 {
     class Solution {
         public boolean isBipartite(int[][] graph) {
@@ -18,7 +19,7 @@ public class 判断二分图785 {
 
         //DPS查找
         private boolean isFeed(int i, int color, int[][] graph, int[] colors) {
-            if (colors[i] != 0) {
+            if (colors[i] != 0) {  //##要先看是不是遍历过
                 return colors[i] == color;  //看当前被涂的节点是否能满足要求的颜色.
             }
 

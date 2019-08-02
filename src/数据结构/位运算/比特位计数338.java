@@ -1,5 +1,5 @@
 package 数据结构.位运算;
-//去掉低位的1再加上一个1.
+//去掉低位的1的那个数的1的个数,再加上一个1.
 public class 比特位计数338 {
     class Solution {
         public int[] countBits(int num) {

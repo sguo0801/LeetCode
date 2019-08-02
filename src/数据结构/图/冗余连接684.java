@@ -1,6 +1,7 @@
 package 数据结构.图;
 
-//参考并查集:https://blog.csdn.net/dm_vincent/article/details/7655764
+//参考并查集:https://blog.csdn.net/dm_vincent/article/details/7655764, https://blog.csdn.net/niushuai666/article/details/6662911
+//两个路径压缩相同,只不过一个分开写啦,一个写一起啦,下面的路径压缩return group[x] = find(group[x]);更加简洁
 public class 冗余连接684 {
     class Solution {
         public int[] findRedundantConnection(int[][] edges) {
@@ -14,10 +15,12 @@ public class 冗余连接684 {
             throw new IllegalArgumentException();  //如果没有多余的边说明给定的edge边二维数组有问题,返回参数异常.
         }
 
+        //UF类,有一个整数型数组(可以存放每个索引i的父节点,每个i代表一个节点)和两个函数组成.所以主函数要给参数一共多少个节点,可以看题意是否给了,或者与边的关系.
+        // 就是有每个节点对应每个组的概念,每一组的节点是联通的,这个类还有find方法找根,union方法合并,
         class UF {  //类前可以加static, 类变量前可以加private, 方法前可以加public.
             int n;   //要有长度值,后面find限定>n的参数返回异常,当然这边限定条件>=n可以不写.
-            int[] group;   //group[i]指的是节点i的根节点.如果自己就是根节点(比如最初),那就为默认0;
-            byte[] rank;   //指的当前树的优先级.只有当两边根相同且要合并是才升级(其实也是树的高度).byte是从-128~127.足够啦.
+            int[] group;   //##必要的,group[i]指的是节点i的根节点.如果自己就是根节点(比如最初),那就为默认0;
+            byte[] rank;   //##非必要的,只是为了合并更均衡.指的当前树的优先级.只有当两边根相同且要合并是才升级(其实也是树的高度).byte是从-128~127.足够啦.
 
             public UF(int n) {  //构造方法只需要当前节点归属的组,和每个节点的等级.n为节点个数.
                 this.n = n;
